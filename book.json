@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "code-editor",
-        "zingchart"
+        "code-editor"
     ],
     "pluginsConfig": {}
 }
