@@ -1,0 +1,30 @@
+<html>
+<head>
+    <link rel="stylesheet" href="%root%/assets/reveal.css">
+    <link rel="stylesheet" href="%root%/assets/theme/white.css">
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        %body%
+    </div>
+</div>
+<script src="%root%/lib/js/head.min.js"></script>
+<script src="%root%/assets/reveal.js"></script>
+<script src="%root%/plugin/code-editor/encoder.js"></script>
+<script>
+    Reveal.initialize({
+        codeEditor:{
+            root: '%root%'
+        },
+        dependencies: [
+            { src: '%root%/plugin/code-editor/editor.js', condition: function() { return !!document.querySelector( '[data-code-editor]' ); } },
+            // Interpret Markdown in <section> elements
+            { src: '%root%/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            { src: '%root%/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }
+        ]
+    });
+
+</script>
+</body>
+</html>
