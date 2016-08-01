@@ -6,7 +6,7 @@
     "pluginsConfig": {
         "revealjs":{
             "slidePath": "Slides",
-            "slideRootPath": "/iwtbook/book-master/Slides"
+            "slideRootPath": "/iwt-master/content/Slides"
         }
     }
 }
