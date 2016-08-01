@@ -4,7 +4,6 @@
 
 
 This HTML5 element defines a scalar measurement within a known range, similar to what might be represented by a gauge.
-<b>Bleh</b>
 </script>
 </section>
 <section data-markdown data-render=slide>
