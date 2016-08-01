@@ -3,5 +3,10 @@
         "code-editor",
         "revealjs"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "revealjs":{
+            "slidePath": "Slides",
+            "slideRootPath": "/iwtbook/book-master/Slides"
+        }
+    }
 }
