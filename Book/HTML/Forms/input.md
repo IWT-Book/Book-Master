@@ -15,5 +15,5 @@ Here is some content only for the slide.
 </section>
 
 <section>
-{% codeeditor src='../../../HTML/4Elements/forms/input.html', language='javascript', readOnly='true', theme='github' %}{% endcodeeditor %}
+{% codeeditor src='../../../HTML/4Elements/forms/input.html' %}{% endcodeeditor %}
 </section>
