@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [HTML](Book/HTML/html.md)
-   * [Sections](Book/HTML/Sections)
+   * [Sections](Book/HTML/Sections/index.md)
        * [Headings](Book/HTML/Sections/headings.md)
        * [Navigation](Book/HTML/Sections/nav.md)
    * [Forms](Book/HTML/Forms/forms.md)
