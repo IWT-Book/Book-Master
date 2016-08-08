@@ -2,13 +2,12 @@
 <section data-markdown>
 <script type="text/template">
 # &lt;input&gt;
-
 </script>
 </section>
 
 Here is some content in the book and not in the slide.
 
-<section data-markdown, data-render=slide>
+<section data-markdown data-render=slide>
 <script type="text/template">
 Here is some content only for the slide.
 </script>
