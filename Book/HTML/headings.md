@@ -16,3 +16,9 @@ The HTML elements <h1> to <h6> define headings from a level 1 (most important) t
 <section>
   {% codeeditor src='../../../HTML/4Elements/sections/hn.html' %}{% endcodeeditor %}
 </section>
+
+
+#Resources
+
+[HTML5 Specification on Headings](https://www.w3.org/TR/html5/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements)
+[Mozilla Developer Network Heading Syntax](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements)
