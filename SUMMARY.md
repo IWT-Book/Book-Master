@@ -4,6 +4,7 @@
 * [HTML](Book/HTML/html.md)
    * [Sections](Book/HTML/Sections)
        * [Headings](Book/HTML/Sections/headings.md)
+       * Navigation
    * [Forms](Book/HTML/Forms/forms.md)
        * [select](Book/HTML/Forms/select.md)
        * [output](Book/HTML/Forms/output.md)
