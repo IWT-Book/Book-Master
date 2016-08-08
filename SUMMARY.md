@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [HTML](Book/HTML/html.md)
    * Sections
-       * Headings
+       * [Headings](headings.md)
    * [Forms](Book/HTML/Forms/forms.md)
        * [select](Book/HTML/Forms/select.md)
        * [output](Book/HTML/Forms/output.md)
