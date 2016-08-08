@@ -14,5 +14,10 @@ Here is some content only for the slide.
 </section>
 
 <section>
+<strong>This is a strong tag in the slide</strong><br>
+But it won't be strong in the book
+</section>
+
+<section>
 {% codeeditor src='../../../HTML/4Elements/forms/input.html' %}{% endcodeeditor %}
 </section>
