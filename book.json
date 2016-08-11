@@ -1,7 +1,8 @@
 {
     "plugins": [
         "code-editor",
-        "revealjs"
+        "revealjs",
+        "expandable-chapters"
     ],
     "pluginsConfig": {
         "revealjs":{
