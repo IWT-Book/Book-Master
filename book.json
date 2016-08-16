@@ -1,13 +1,17 @@
 {
     "plugins": [
-        "code-editor",
         "revealjs",
-        "expandable-chapters"
+        "code-editor",
+        "expandable-chapters",
+        "theme-iwt"
     ],
     "pluginsConfig": {
         "revealjs":{
             "slidePath": "Slides",
             "slideRootPath": "/iwt-master/content/Slides"
         }
+    },
+    "styles": {
+        "website": "website.css"
     }
 }
