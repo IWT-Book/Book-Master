@@ -1,21 +1,18 @@
 # input.md
-<section data-markdown>
-<script type="text/template">
 # &lt;input&gt;
-</script>
-</section>
 
 Here is some content in the book and not in the slide.
 
 <section data-markdown data-render=slide>
 <script type="text/template">
+#Input
 Here is some content only for the slide.
 </script>
 </section>
 
 <section>
-<strong>This is a strong tag in the slide</strong><br>
-But it won't be strong in the book
+<h1>This is a header tag in the slide</h1><br>
+But it won't be a header in the book
 </section>
 
 <section>

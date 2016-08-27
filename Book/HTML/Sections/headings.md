@@ -14,6 +14,7 @@ The HTML elements &lt;h1&gt; to &lt;h6&gt; define headings from a level 1 (most 
 </section>
 
 <section>
+  <h3>Example</h3>
   {% codeeditor src='../../../HTML/4Elements/sections/hn.html' %}{% endcodeeditor %}
 </section>
 

@@ -1,14 +1,14 @@
+# &lt;meter&gt;
 <section data-markdown>
 <script type="text/template">
-# &lt;meter&gt;
-
-
+#Meter
 This HTML5 element defines a scalar measurement within a known range, similar to what might be represented by a gauge.
 </script>
 </section>
+
 <section data-markdown data-render=slide>
 <script type="text/template">
-####HTML5 Standard Syntax
+###HTML5 Standard Syntax
 ```
 <meter 
     accesskey="spaced list of accelerator key(s)" 
@@ -42,13 +42,13 @@ This HTML5 element defines a scalar measurement within a known range, similar to
 </section>
 <section data-markdown data-render=book>
 <script type="text/template">
-#### HTML5 Event Attributes
+###HTML5 Event Attributes
 > onabort, onblur, oncanplay, oncanplaythrough, onchange, onclick, oncontextmenu, ondblclick, ondrag, ondragend, ondragenter, ondragleave, ondragover, ondragstart, ondrop, ondurationchange, onemptied, onended, onerror, onfocus, onformchange, onforminput, oninput, oninvalid, onkeydown, onkeypress, onkeyup, onload, onloadeddata, onloadedmetadata, onloadstart, onmousedown, onmousemove, onmouseout, onmouseover, onmouseup, onmousewheel, onpause, onplay, onplaying, onprogress, onratechange, onreadystatechange, onscroll, onseeked, onseeking, onselect, onshow, onstalled, onsubmit, onsuspend, ontimeupdate, onvolumechange, onwaiting
 </script>
 </section>
 <section data-markdown data-render=both>
 <script type="text/template" >
-#### Element-Specific Attributes
+###Element-Specific Attributes
 * `low` This attribute holds a float value that indicates the low range of the measurement.
 * `max` This attribute holds a float value that indicates the maximum range of the measurement.
 * `min` This attribute holds a float value that indicates the minimum range of the measurement.
@@ -59,7 +59,6 @@ This HTML5 element defines a scalar measurement within a known range, similar to
 #### Examples
 <section>
 {% codeeditor src='../../../HTML/4Elements/forms/meter.html' %}{% endcodeeditor %}
-
 </section>
 OR WE CAN BREAK IT UP:
 #### Examples
@@ -75,14 +74,14 @@ OR WE CAN BREAK IT UP:
 
 <section data-markdown>
 <script type="text/template">
-#### Image Example:
+###Image Example:
 ![Meter Tooltip](../../../images/meter.png)
 </script>
 </section>
 
 <section data-markdown>
 <script type="text/template">
-#### Notes
+###Notes
 * The assumption is that values are used in the correct sense; for example, a min value cannot be greater than a max value, a low value can’t be greater than a high value, an optimum value cannot be greater than a high value, and so on.
 </script>
 </section>
