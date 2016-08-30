@@ -1,4 +1,3 @@
-# &lt;meter&gt;
 <section data-markdown>
 <script type="text/template">
 #Meter
@@ -6,11 +5,46 @@ This HTML5 element defines a scalar measurement within a known range, similar to
 </script>
 </section>
 
-<section data-markdown data-render=slide>
+<section data-markdown>
 <script type="text/template">
 ###HTML5 Standard Syntax
 ```
 <meter 
+    accesskey="spaced list of accelerator key(s)"   
+    class="class name(s)"   
+    contenteditable="true | false | inherit"   
+    contextmenu="id of menu"  
+    data-X="user-defined data"   
+    dir="ltr | rtl" 
+    draggable="true | false | auto" 
+    hidden="hidden" 
+    high="float" 
+    id="unique alphanumeric identifier" 
+    itemid="microdata id in URL format" 
+    itemprop="microdata value" 
+    itemref="space-separated list of IDs that may contain microdata" 
+    itemscope="itemscope" 
+    itemtype="microdata type in URL format" 
+    lang="language code" 
+    low="float" 
+    max="float" 
+    min="float"
+    optimum="float" 
+    spellcheck="true | false" 
+    style="style information" 
+    title="advisory text" 
+    tabindex="number" 
+    value="float" >
+</meter>
+```
+</script>
+</section>
+
+<section>
+<h3>HTML5 Standard Syntax</h3>
+<pre>
+<code>
+&lt;meter 
     accesskey="spaced list of accelerator key(s)" 
     class="class name(s)" 
     contenteditable="true | false | inherit" 
@@ -35,11 +69,11 @@ This HTML5 element defines a scalar measurement within a known range, similar to
     style="style information" 
     title="advisory text" 
     tabindex="number" 
-    value="float">
-</meter>
-```
-</script>
+    value="float"&gt;
+&lt;/meter&gt;
+</code></pre>
 </section>
+
 <section data-markdown data-render=book>
 <script type="text/template">
 ###HTML5 Event Attributes
@@ -59,17 +93,6 @@ This HTML5 element defines a scalar measurement within a known range, similar to
 #### Examples
 <section>
 {% codeeditor src='../../../HTML/4Elements/forms/meter.html' %}{% endcodeeditor %}
-</section>
-OR WE CAN BREAK IT UP:
-#### Examples
-**Code**:
-<section>
-{% codeeditor src="../../../HTML/4Elements/forms/meter.html", singleTab='html' %}{% endcodeeditor %}
-</section>
-
-**Example**:
-<section>
-{% codeeditor src='../../../HTML/4Elements/forms/meter.html', singleTab='result' %}{% endcodeeditor %}
 </section>
 
 <section data-markdown>
