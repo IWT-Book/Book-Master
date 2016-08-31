@@ -30,3 +30,28 @@ ul.summary{
 }
 
 
+.syntaxbox span.attrname{
+    color:#0000FF;
+    padding-left:30px;
+}
+
+.attrvalue{
+    color: #008000;
+}
+
+.tagname{
+    color:#000080;
+}
+
+div.syntaxbox{
+    text-align: left;
+    background-color: #f7f7f7;
+}
+
+.reveal div.syntaxbox{
+    font-size: 0.55em;
+    font-family: monospace;
+    max-height:400px;
+    overflow:auto;
+}
+

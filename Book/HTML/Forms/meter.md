@@ -8,7 +8,7 @@ This HTML5 element defines a scalar measurement within a known range, similar to
 <section data-markdown>
 <script type="text/template">
 ###HTML5 Standard Syntax
-```
+```html
 <meter 
     accesskey="spaced list of accelerator key(s)"   
     class="class name(s)"   

@@ -3,6 +3,7 @@
     <link rel="stylesheet" href="%root%/assets/reveal.css">
     <link rel="stylesheet" href="%root%/assets/theme/white.css">
     <link rel="stylesheet" href="%root%/plugin/presentable/presentable.min.css">
+    <link rel="stylesheet" href="%webroot%/website.css">
 </head>
 <body>
 <div class="reveal">
@@ -37,7 +38,7 @@
             // Interpret Markdown in <section> elements
             { src: '%root%/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
             { src: '%root%/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-            { src: '%root%/plugin/presentable/presentable.min.js', callback: function() { presentable.toc({framework: "revealjs"}); } }
+            { src: '%root%/plugin/presentable/presentable.min.js', callback: function() { presentable.toc({hideNoTitle: true, framework: "revealjs"}); } }
         ]
     });
 
