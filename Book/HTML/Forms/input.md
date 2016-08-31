@@ -164,7 +164,6 @@ This attribute, initially supported by many browsers such as Internet Explorer f
 <section data-markdown>
 <script type="text/template">
 ###Notes
-* The HTML 2.0 and 3.2 specifications support only the align, checked, maxlength, name, size, src, type, and value attributes for the input element.
 * The HTML 4.01 specification also reserves the use of the datafld, dataformatas, and datasrc data-binding attributes. They were not included in the XHTML specification but are supported by Internet Explorer.
 * Use of autocomplete may have security implications. Use with caution.
 * Under the strict HTML and XHTML specifications, the align attribute is not
