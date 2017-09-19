@@ -1,6 +1,6 @@
 # Headings
 
-The HTML elements &lt;h1&gt; to &lt;h6&gt; define headings from a level 1 (most important) to 6 least important.  Headings visually run from large (&lt;h1&gt;) to small (&lt;h6&gt;). However, since headings are semantic elements you should not assume this and apply style primarily via CSS. Hey there Jack here is some stuff we might talk about...
+The HTML elements &lt;h1&gt; to &lt;h6&gt; define headings from a level 1 (most important) to 6 least important.  Headings visually run from large (&lt;h1&gt;) to small (&lt;h6&gt;). However, since headings are semantic elements you should not assume this and apply style primarily via CSS.
 
 <section data-markdown data-render="slide">
 <script type="text/template"> 
@@ -8,7 +8,9 @@ The HTML elements &lt;h1&gt; to &lt;h6&gt; define headings from a level 1 (most 
    
    * 6 levels of headings &lt;h1&gt; - &lt;h6&gt;
    * Semantic Block Elements
+   * Should be thought of as outlining
    * Generally render from large to small
+   * Often mistakenly thought of as presentational
    
 </script>
 </section>
@@ -16,10 +18,6 @@ The HTML elements &lt;h1&gt; to &lt;h6&gt; define headings from a level 1 (most 
 <section>
   <h3>Example</h3>
   {% codeeditor src='../../../HTML/4Elements/sections/hn.html' %}{% endcodeeditor %}
-</section>
-
-<section data-render="book">
-  Just in the book!  Some book only content!
 </section>
 
 

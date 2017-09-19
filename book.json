@@ -8,7 +8,7 @@
     "pluginsConfig": {
         "revealjs":{
             "slidePath": "Slides",
-            "slideRootPath": "/iwt-master/content/Slides"
+            "slideRootPath": "/Slides"
         }
     },
     "styles": {

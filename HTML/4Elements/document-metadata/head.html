@@ -2,13 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>head</title>
-    <base href="http://www.democompany.com">
-    <meta name="Keywords" content="DemoCompany, SuperWidget">
-    </head>
+
+    <!-- Note the use of a tag and special character in the title and how it is not processed -->
+    <title>An example of the <head> tag with an entity - &#9731; and an emoji 😁</title>
+
+    <base href="http://www.ucsd.edu">
+
+    <meta name="Keywords" content="University of California, San Diego, UC San Diego, UCSD">
+    <meta name="Description" content="A sample page from the UCSD CSE Department client-side Web class">
+
+    <link rel="stylesheet" href="global.css">
+
+    <link rel="next" href="body.html">
+
+    <script>
+        alert('An inline script in the head');
+    </script>
+
+    <script src="global.js"></script>
 </head>
 <body>
+
+<h1>Nothing much to see here, look in the <strong>head</strong> element for the <em>good</em> stuff.</h1>
 
 </body>
 </html>

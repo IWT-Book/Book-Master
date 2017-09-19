@@ -1,16 +1,9 @@
-{% revealjs slideName='sections' %}{% endrevealjs %}
 # Navigation
 
-The &lt;nav&gt; element is used to set navigation. Ya boi!
+The &lt;nav&gt; element is used to set navigation. It is a purely a semantic element and provides now inherent display.
 
-<section data-markdown>
-<script type="text/template">
-#nav
-#This guy says people don't use the Mobile web!
 
-![Some Dude](../../../images/somecoolimage.png)
-I put in an image
-</script>
-</section>
+
+#Resources
 
 
