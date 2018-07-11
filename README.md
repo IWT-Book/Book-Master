@@ -39,4 +39,5 @@ This can only be done while running locally.
   To see all the regions/classes that gitbook provides, you can view node_modules/gitbook-plugin-theme-iwt/src/less/website
   OR you can update the .less files at node_modules/gitbook-plugin-theme-iwt/src/less/website.  
   Unfortunately, it only seems like the changes take hold if you publish the plugin and update the version.  No way to test locally so probably better to use website.css.
-    
+
+## Last Updated : July 2018 - TAP
