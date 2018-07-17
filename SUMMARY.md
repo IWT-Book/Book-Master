@@ -56,6 +56,10 @@
         * [Statements]()
         * [Functions]()
         * [Regular Expressions]()
-   * [DOM]()
-   * [Ajax]()
-
+    * [DOM]()
+    * [Ajax]()
+* [Useful Tutorials & Things](Book/UsefulTutorials/index.md)
+    * [Markdown Tutorial](Book/UsefulTutorials/Markdown/index.md)
+    * [Useful Plugins](Book/UsefulTutorials/UsefulPlugins/index.md)
+   
+   
