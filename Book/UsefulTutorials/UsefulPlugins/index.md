@@ -7,7 +7,7 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 1. 
 
-    * Name: gitbook-plugin-auto-summary
+    * Name: gitbook-plugin-auto-summary (**_Have not test it_**)
     * Description: Plugin for gitbook to automate generate SUMMARY.md
     * [Gitbook Link](https://plugins.gitbook.com/plugin/auto-summary)
     * Github Link: N/A 
@@ -15,14 +15,14 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 2. 
 
-    * Name: shell
+    * Name: shell (**_Have not test it_**)
     * Description: N/A
     * [Gitbook Link](https://plugins.gitbook.com/plugin/shell)
     * [Githubk Link]: https://github.com/davidmogar/gitbook-plugin-shell
 
 3. 
 
-    * Name: Panel plugin for GitBook
+    * Name: Panel plugin for GitBook (**_finished testing on 07/16/2018 at 9:20PM_**)
     * Description: Gitbook is a great tool but specially the cli version is lacking
     some features. The aim of this plugin is adding one that is really needed: Panels. 
     * [Gitbook Link](https://plugins.gitbook.com/plugin/panel)
@@ -30,43 +30,43 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 4. 
 
-    * Name: image-viewer
+    * Name: image-viewer (**_Have not test it_**)
     * Description: N/A
     * [Gitbook Link](https://plugins.gitbook.com/plugin/image-viewer)
     * [Github Link](https://github.com/tearfulDalvik/gitbook-plugin-image-viewer)
 
 5. 
 
-    * Name: gitbook-plugin-quiz
+    * Name: gitbook-plugin-quiz (**_Have not test it_**)
     * Description: Allows to insert simple quizes into gitbook.
     * [Gitbook Link](https://plugins.gitbook.com/plugin/quiz)
     * [Github Link](https://github.com/chudaol/gitbook-plugin-quiz#readme)
 
 6. 
 
-    * Name: Interactive quizzes in a gitbook
+    * Name: Interactive quizzes in a gitbook (**_On Progress since 07/16/2018 at 9:30PM_**)
     * Description: With this plugin, a book can contain interactive quizzes.
     * [Gitbook Link](https://plugins.gitbook.com/plugin/quizzes)
     * [Github Link](https://github.com/GitbookIO/plugin-quizzes)
 
 7. 
 
-    * Name: add-hash-to-parent
+    * Name: add-hash-to-parent (**_Have not test it_**)
     * Description: N/A
     * [Gitbook Link](https://plugins.gitbook.com/plugin/add-hash-to-parent)
     * Github Link: N/A
     * [npm Link](https://www.npmjs.com/package/gitbook-plugin-add-ha)
 
 8. 
-    
-    * Name: Styled hint blocks in your docs
+
+    * Name: Styled hint blocks in your docs (**_Have not test it_**)
     * Description: N/A
     * [Gitbook Link](https://plugins.gitbook.com/plugin/hints-istex)
     * [Github Link](https://github.com/istex/gitbook-plugin-hints-istex)
 
 9. 
 
-    * Name: Interactive exercises in a gitbook
+    * Name: Interactive exercises in a gitbook (**_Have not test it_**)
     * Description: With this plugin, a book can contain interactive exercises 
     (currently only in Javascript). An exercise is a code challenge provided 
     to the reader, who is given a code editor to write a solution which is 
@@ -76,7 +76,7 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 10. 
 
-    * Name: Click To Reveal Plugin
+    * Name: Click To Reveal Plugin (**_Have not test it_**)
     * Description: Simple plugin to add « Click to Reveal » functionnality to
     your GitBook.
     * [Gitbook Link](https://plugins.gitbook.com/plugin/click-reveal)
@@ -84,7 +84,7 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 11. 
 
-    * Name: gitbook-plugin-link-targets
+    * Name: gitbook-plugin-link-targets (**_Have not test it_**)
     * Description: Straight forward plugin that adds target attributes to links 
     that contain the keys set in the config. This allows you to have other 
     * resources live in the same subdirectory of gitbook.

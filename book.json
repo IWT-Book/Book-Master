@@ -3,7 +3,10 @@
         "revealjs",
         "code-editor",
         "expandable-chapters",
-        "theme-iwt"
+        "theme-iwt",
+        "panel",
+        "quizzes", 
+        "exercises"
     ],
     "pluginsConfig": {
         "revealjs":{
