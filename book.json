@@ -6,12 +6,29 @@
         "theme-iwt",
         "panel",
         "quizzes", 
-        "exercises"
+        "exercises",
+        "quiz"
     ],
     "pluginsConfig": {
         "revealjs":{
             "slidePath": "Slides",
             "slideRootPath": "/Slides"
+        },
+        "quiz":{
+            "labels":{
+                "check"             :"Check my answers",
+                "showExplanation"   :"Explain",
+                "showCorrect"       :"Show all",
+                "explanationHeader" :"Explanation"
+            },
+            "text":{
+                "noChosen"          :"Choose at least one answer",
+                "incompete"         :"Some correct answers are missing"
+            },
+            "buttons":{
+                "showCorrect"       :true,
+                "showExplanation"   :true
+            }
         }
     },
     "styles": {

@@ -86,3 +86,80 @@ What does Gitbook support?
 > Gitbook is not telepathic and does not give you the moon on a stick.
 
 ---
+
+{% panel style= "info", title= "On Hold" %}
+Interactive quizzes in a gitbook plugin is on hold because I was able to see some better plugin. 
+{% endpanel %}
+
+# Testing gitbook-plugin-quiz
+{% panel style= "info", title= "Added to book.json" %}
+    To test gitbook-plugin-quiz, I added the following to book.json.
+
+    Under the "plugins", I added "quiz".
+    Under the "pluginsConfig", I added
+
+    > "quiz": {
+            "labels": {
+                "check"             : "Check my answers",
+                "showExplanation"   : "Explain", 
+                "showCorrect"       : "Show all",   
+                "explanationHeader" : "Explanation"
+            },
+            "text": {
+                "noChosen"    : "Choose at least one answer",  
+                "incomplete"  : "Some correct answers are missing" 
+            },
+            "buttons": {
+                "showCorrect"       : true, 
+                "showExplanation"   : true 
+            }
+    }  
+{% endpanel %} 
+
+<quiz name= "Quiz time, This is the title of the quiz" >
+    <question multiple>
+        <p>What does IWT use?</p>
+        <answer correct> Markdown</answer>
+        <answer correct> gitbook</answer>
+        <answer> CSS </answer>
+        <explanation>The IWT uses Markdown language and gitbook</explanation>
+    </question>
+    <question>
+        <p> does it support True/False question? </p>
+        <answer correct>Ture</answer>
+        <answer> False </answer>
+    </question>
+    <question>
+        <p> ![information picture](images/info.gif)
+        does it support picture question?</p>
+        <answer>Ture</answer>
+        <answer false> False </answer>
+    </question>
+    <question>
+        <p>This is multiple dropdown quiz, in each dropdown select a correct number corresponding to the dropdown's order</p>
+        <answer>
+            <option correct>First</option>
+            <option>Second</option>
+            <option>Third</option>
+            <option>Fourth</option>
+        </answer>
+        <answer>
+            <option>First</option>
+            <option correct>Second</option>
+            <option>Third</option>
+            <option>Fourth</option>
+        </answer>
+        <answer>
+            <option>First</option>
+            <option>Second</option>
+            <option correct>Third</option>
+            <option>Fourth</option>
+        </answer>
+        <answer>
+            <option>First</option>
+            <option>Second</option>
+            <option>Third</option>
+            <option>Fourth</option>
+        </answer>
+    </question>
+</quiz>

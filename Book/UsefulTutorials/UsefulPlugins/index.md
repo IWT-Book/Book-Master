@@ -37,14 +37,14 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 5. 
 
-    * Name: gitbook-plugin-quiz (**_Have not test it_**)
+    * Name: gitbook-plugin-quiz (**_finished testing on 7/18/2018 at 3:25PM_**)
     * Description: Allows to insert simple quizes into gitbook.
     * [Gitbook Link](https://plugins.gitbook.com/plugin/quiz)
     * [Github Link](https://github.com/chudaol/gitbook-plugin-quiz#readme)
 
 6. 
 
-    * Name: Interactive quizzes in a gitbook (**_On Progress since 07/16/2018 at 9:30PM_**)
+    * Name: Interactive quizzes in a gitbook (**_On Hold since 07/16/2018 at 9:30PM_**)
     * Description: With this plugin, a book can contain interactive quizzes.
     * [Gitbook Link](https://plugins.gitbook.com/plugin/quizzes)
     * [Github Link](https://github.com/GitbookIO/plugin-quizzes)
