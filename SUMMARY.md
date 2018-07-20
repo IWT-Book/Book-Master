@@ -18,6 +18,7 @@
        * [Header](Book/HTML/Sections/header.md)
        * [Footer](Book/HTML/Sections/footer.md)
        * [Address](Book/HTML/Sections/address.md)
+       * [HTML Quiz](Book/HTML/Sections/Quiz.md)
    * [Textual Elements]()
    * [Links]()
    * [Images]()
@@ -63,5 +64,8 @@
     * [Useful Plugins](Book/UsefulTutorials/UsefulPlugins/index.md)
     * [Working Plugins](Book/UsefulTutorials/WorkingPlugins/index.md)
     * [Testing Zone](Book/UsefulTutorials/TestingZone/index.md)
+* [How To](Book/HowTo/HowTo.md)
+    * [How to Use Panel Plugin](Book/HowTo/PanelPlugin.md)
+    * [How to Use Quiz Plugin](Book/HowTo/QuizPlugin.md)
    
    
