@@ -61,6 +61,7 @@
 * [Useful Tutorials & Things](Book/UsefulTutorials/index.md)
     * [Markdown Tutorial](Book/UsefulTutorials/Markdown/index.md)
     * [Useful Plugins](Book/UsefulTutorials/UsefulPlugins/index.md)
-    * [Testing Plugins](Book/UsefulTutorials/TestPlugins/index.md)
+    * [Working Plugins](Book/UsefulTutorials/WorkingPlugins/index.md)
+    * [Testing Zone](Book/UsefulTutorials/TestingZone/index.md)
    
    

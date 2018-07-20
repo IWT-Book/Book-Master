@@ -92,24 +92,177 @@ In addition, I, Raafat Samuail, have not test any of them.
     * Github Link: N/A
     * [npm Link](https://www.npmjs.com/package/gitbook-plugin-link-targets)
 
-12. 
+###Video Plugins need to be test it
+1. 
 
-    * Name: 
-    * Description:
-    * [Gitbook Link]:
-    * [Github Link]:
+    * Name: Embed bilibili videos in gitbook
+    * Description: This plugins requires gitbook >=2.0.0.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/bilibili) 
+    * [Github Link](https://github.com/open-course/gitbook-plugin-bilibili)
 
-13. 
+2. 
 
-    * Name: 
-    * Description:
-    * [Gitbook Link]:
-    * [Github Link]:
+    * Name: Gitbook Plugin - Google Drive Video
+    * Description: Embed Google Drive videos in your book
+        This plugins requires gitbook >=2.0.0.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/google-drive-video)
+    * [Github Link](https://github.com/MagLoft/gitbook-plugin-google-drive-video#readme)
 
-15. 
+3. 
 
-    * Name: 
-    * Description:
-    * [Gitbook Link]:
-    * [Github Link]:
+    * Name: Gitbook plugin iframely
+    * Description: Get any video or iframe card supported by iframely. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc).
+    If you prefer an option without the need for an API key or depending on creating an account, you can try gitbook-plugin-noembed. It has less supported sites than iframely but still has all the popular ones and more.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/iframely)
+    * [Github Link](https://github.com/1cgonza/gitbook-plugin-iframely#readme)
+
+4. 
+
+    * Name: modal-youtube-video
+    * Description: Represent youtube videos inside a modal in your gittbook
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/modal-youtube-video)
+    * [Github Link](https://github.com/chudaol/gitbook-plugin-modal-youtube-video#readme)
+
+5. 
+
+    * Name: Gitbook Plugin for Video.js
+    * Description: Intentionally kept simple; just include the plugin in book.json:
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/local-video)
+    * [Github Link](https://github.com/PacktPublishing/gitbook-local-video)
+
+6. 
+
+    * Name: Gitbook plugin Noembed
+    * Description: Get any video or iframe card supported by Noembed. (Vimeo, YouTube, Facebook, Twitter, Instagram, etc)
+    If the sites you need to embed are not supported by Noembed, you can try gitbook-plugin-iframely. They claim to support 1,800+ sites but you need at least a free account to get an API key.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/noembed)
+    * [Github Link](https://github.com/1cgonza/gitbook-plugin-noembed#readme)
+
+7. 
+
+    * Name: gitbook-plugin-html5-video
+    * Description: This plugin helps you to include Video tag in your html5 pages.
+     
+      This plugins requires gitbook >=2.0.0.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/html5-video)
+    * [Github Link](https://github.com/Harris2012/gitbook-plugin-html5-video)
+
+8. 
+
+    * Name: markdown video plugin for GitBook
+    * Description: Plugin for GitBook 3 which renders video videos detected in the book markdown.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/markdown-video)
+    * [Github Link]: N/A
+    * [npm link](https://www.npmjs.com/package/gitbook-plugin-markdown-video)
+
+###PDF Plugins need to be test it
+
+1. 
+
+    * Name:  get-pdf-link
+    * Description: N/A
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/get-pdf-link)
+    * [Github Link](https://github.com/okon3/gitbook-plugin-get-pdf-link)
+
+2. 
+
+    * Name: gitbook-plugin-downloadpdf
+    * Description: GitBook Plugin to add \"Download PDF\" link on every page.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/downloadpdf)
+    * [Github Link]: N/A
+    * [npm link](https://www.npmjs.com/package/gitbook-plugin-downloadpdf)
+
+3. 
+
+    * Name: Post-processing your GitBook PDFs made easy
+    * Description:By default, GitBook generates very simple, clean, black-on-white PDF documents. Although one can achieve some degree of   customization through styles/pdf.css and the use of book.json to provide custom headers and footers, some operations remain out of    reach. For instance, one cannot set a background or foreground layers, although common use-cases include watermarking/stamping, or    even simply adding a nice color/texture to the document.
+
+      This plugin allows you to perform some common post-processing operations. It features:
+
+        [x] setting an image as background (with fill-page mode supported)
+        [ ] setting a colorful background (soon)
+        [ ] setting a texture-based background (soon)
+        [ ] performing foreground stamping (soon)
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/pdf-styling)
+    * [Github Link](https://github.com/chikamichi/gitbook-plugin-pdf-styling)
+
+4. 
+
+    * Name: Gitbook plugin download-pdf-link
+    * Description: GitBook Plugin to add a link on every page to download PDF.
+
+      To use this plugin, you have to modify your book.json configuration file.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/download-pdf-link)
+    * [Github Link](https://github.com/show0k/gitbook-plugin-download-pdf-link)
+
+5. 
+
+    * Name: Gitbook plugin get-book
+    * Description: GitBook Plugin to add a link on every page to download PDF.
+
+      To use this plugin, you have to modify your book.json configuration file.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/get-book)
+    * [Github Link](https://github.com/rpatrao/download-book)
+
+6. 
+
+    * Name: gitbook-plugin-canonical-link
+    * Description: N/A
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/canonical-link)
+    * [Github Link](https://github.com/azu/gitbook-plugin-canonical-link)
+
+### Comment maybe Notes anyway need to be test it
+1. 
+
+    * Name: Inline discussions with gitbook.com
+    * Description: This plugin is an official plugins that integrates with GitBook.com Discussions API to enable inline comments on content:
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/comment)
+    * [Github Link](https://github.com/GitbookIO/plugin-comment)
+
+2. 
+
+    * Name: facebook
+    * Description: This is a plugin that allows you to add Facebook comments plugin in your GitBook.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/facebook)
+    * [Github Link](https://github.com/ymcatar/gitbook-plugin-facebook)
+
+3. 
+
+    * Name: gitbook-comment
+    * Description: A comment plugins for gitbook
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/commenter)
+    * [Github Link](https://github.com/DvaMecha/gitbook-comment#readme)
+
+4. 
+
+    * Name: Marginal
+    * Description: A gitbook plugin that creates a margin for notes and callouts on the left-hand side of each page. When notes are too large to fit within the height of its accompanying paragraph, the note is truncated and a button is made visible that allows the note to expand (along with the associated paragraph). Works best with Asciidoc.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/marginal)
+    * [Github Link](https://github.com/canadaduane/gitbook-plugin-marginal)
+
+5. 
+
+    * Name:  richquotes
+    * Description: Gitbook plugin : Transform annotated quotes to notes
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/richquotes)
+    * [Github Link](https://github.com/erixtekila/gitbook-plugin-richquotes)
+
+6. 
+
+    * Name: Transform comments to notes
+    * Description: GitBook plugin : Transform comments to notes
+    
+      This plugin converts markdown comments to notes in the browser.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/comments)
+    * [Github Link](https://github.com/erixtekila/gitbook-plugin-comments)
+
+7. 
+
+    * Name: Gitbook plugin download-pdf-link
+    * Description: GitBook Plugin to add a link on every page to download PDF.
+
+      To use this plugin, you have to modify your book.json configuration file.
+    * [Gitbook Link](https://plugins.gitbook.com/plugin/download-chapter)
+    * [Github Link]:N/A
+    * [npm link](https://www.npmjs.com/package/gitbook-plugin-download-chapter)
 

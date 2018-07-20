@@ -1,4 +1,5 @@
-#Testing Plugins (Testing Zone)
+# Testing Zone
+
 
 ## Testing Panel Plugin
 ### Note: I added "panel" to book.json file under the plugins array on 7/16/2018
@@ -57,10 +58,11 @@ Panel with title and warning style.
 {% endpanel %}
 
 # Testing Interactive quizzes in a gitbook
-### Note: I added "quizzes" and "exercises" to book.json file under the plugins array on 7/16/2018
-
 {% panel style= "info", title= "Special Syntax" %}
 Quizzes need to start and finish with a separation bar (--- or *****).
+
+**_Note_** Prof. Powell did not like this plugin, so I stoped testing, and I deleted the
+the quizzes and exercises from book.json.
 {% endpanel %}
 
 ---
@@ -163,3 +165,8 @@ Interactive quizzes in a gitbook plugin is on hold because I was able to see som
         </answer>
     </question>
 </quiz>
+
+{% panel style="success", title="The result of testing the gitbook-plugin-quiz." %} 
+![The answer is YES](images/success.jpg)
+##The result: the plugin is workin %100.
+{% endpanel %}
