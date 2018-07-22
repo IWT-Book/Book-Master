@@ -67,5 +67,7 @@
 * [How To](Book/HowTo/HowTo.md)
     * [How to Use Panel Plugin](Book/HowTo/PanelPlugin.md)
     * [How to Use Quiz Plugin](Book/HowTo/QuizPlugin.md)
+    * [How to use Click-Reveal Plugin](Book/HowTo/ClickReveal.md)
+    * [How to use Interactive Exercises Plugin](Book/HowTo/Exercises.md)
    
    

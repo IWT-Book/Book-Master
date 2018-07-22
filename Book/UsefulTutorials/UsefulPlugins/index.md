@@ -76,7 +76,7 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 10. 
 
-    * Name: Click To Reveal Plugin (**_Have not test it_**)
+    * Name: Click To Reveal Plugin (**_Test it on 07/22/2018 and it is partially working. It only shows text and code_**)
     * Description: Simple plugin to add « Click to Reveal » functionnality to
     your GitBook.
     * [Gitbook Link](https://plugins.gitbook.com/plugin/click-reveal)

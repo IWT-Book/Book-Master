@@ -5,6 +5,8 @@
         "expandable-chapters",
         "theme-iwt",
         "panel",
+        "exercises",
+        "click-reveal",
         "quiz"
     ],
     "pluginsConfig": {

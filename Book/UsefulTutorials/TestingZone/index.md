@@ -94,6 +94,7 @@ Interactive quizzes in a gitbook plugin is on hold because I was able to see som
 {% endpanel %}
 
 # Testing gitbook-plugin-quiz
+
 {% panel style= "info", title= "Added to book.json" %}
     To test gitbook-plugin-quiz, I added the following to book.json.
 
@@ -170,3 +171,70 @@ Interactive quizzes in a gitbook plugin is on hold because I was able to see som
 ![The answer is YES](images/success.jpg)
 ##The result: the plugin is workin %100.
 {% endpanel %}
+
+# Testing Click To Reveal Plugin 
+**_Note:_** I added `"plugins":["click-reveal"]` to book.json
+
+**_Note:_** I am hidding an image
+{% reveal %}
+    ![success image](images/success.jpg)
+    <img src="images/success.jpg" alt="Smiley face">
+{% endreveal %}
+
+**_Note:_** Click to reveal with custom text
+{% reveal text="Click to see the image" %}
+    ![success image](images/success.jpg)
+    <img src="images/success.jpg" alt="Smiley face">
+{% endreveal %}
+
+**_Note:_** I am hidding a link 
+{% reveal %}
+    [Click to go to google](www.google.com)
+    <a href="http://www.google.com">Visit Google</a>
+{% endreveal %}
+
+**_Note:_** Click to reveal with custom text
+{% reveal text="Click to see the link" %}
+    [Click to go to google](www.google.com)
+    <a href="http://www.google.com">Visit Google</a>
+{% endreveal %}
+
+**_Note:_** I am hidding a pop question from the quiz plugin 
+{% reveal %}
+    <quiz name= "Quiz time, This is the title of the quiz" >
+        <question multiple>
+            <p>What does IWT use?</p>
+            <answer correct> Markdown</answer>
+            <answer correct> gitbook</answer>
+            <answer> CSS </answer>
+            <explanation>The IWT uses Markdown language and     gitbook</explanation>
+        </question>
+        <question>
+            <p> does it support True/False question? </p>
+            <answer correct>Ture</answer>
+            <answer> False </answer>
+        </question>
+    </quiz>
+{% endreveal %}
+
+**_Note:_** I am hidding a text 
+{% reveal %}
+    IWT will be one of the best thing in world. Just watch :)
+{% endreveal %}
+
+# Testing Interactive exercises in a gitbook
+**_Note:_** added  `"plugins": ["exercises"]` to book.json
+
+{% exercise %}
+Define a variable `x` equal to 10.
+
+{% initial %}
+var x =
+
+{% solution %}
+var x = 10 
+
+{% validation %}
+assert(x == 10) 
+
+{% endexercise %}

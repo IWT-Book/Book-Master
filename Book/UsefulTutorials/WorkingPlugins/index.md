@@ -39,3 +39,45 @@
 {% endpanel %}
 
 # Testing Click To Reveal Plugin
+{% panel style= "info", title= "book.json"%}
+**_Note:_** I added `"plugins":["click-reveal"]` to book.json
+{% endpanel %}
+
+{% panel style= "warning", title= "Partially Working"%}
+**_Note:_** Click to Reveal Plugin is only useful to hide text and code. It does not hide any images, links, or videos. 
+{% endpanel %}
+
+**_Note:_** I am hidding a text 
+{% reveal %}
+    IWT will be one of the best thing in world. Just watch :)
+{% endreveal %}
+
+**_Note:_** Click to reveal with custom text
+{% reveal text="Click to see the image" %}
+    ![success image](images/success.jpg)
+    <img src="images/success.jpg" alt="Smiley face">
+{% endreveal %}
+
+# Testing Interactive exercises in a gitbook
+
+{% panel style= "info", title= "book.json"%}
+**_Note:_** I added `"plugins":["exercises"]` to book.json
+{% endpanel %}
+
+{% panel style= "warning", title= "HTML Tags"%}
+**_Note:_**Interactive exercises in a gitbook is not very usefull for testing html tags.
+{% endpanel %}
+
+{% exercise %}
+Define a variable `x` equal to 10.
+
+{% initial %}
+var x =
+
+{% solution %}
+var x = 10 
+
+{% validation %}
+assert(x == 10) 
+
+{% endexercise %}
