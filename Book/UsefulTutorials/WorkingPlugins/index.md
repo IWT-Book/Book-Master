@@ -81,3 +81,7 @@ var x = 10
 assert(x == 10) 
 
 {% endexercise %}
+
+# Testing Google drive Video plugin
+**_Note:_** I added `plugins: ["google-drive-video"]` to `book.json`
+{% gdrive %}https://drive.google.com/file/d/10D3EOKvQz5s1Lz2_jClHZHwUh8pG34yJ/view?usp=sharing{% endgdrive %}

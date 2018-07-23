@@ -69,5 +69,6 @@
     * [How to Use Quiz Plugin](Book/HowTo/QuizPlugin.md)
     * [How to use Click-Reveal Plugin](Book/HowTo/ClickReveal.md)
     * [How to use Interactive Exercises Plugin](Book/HowTo/Exercises.md)
+    * [How to use Google Drive Video plugin](Book/HowTo/GoogleDriveVideo.md)
    
    

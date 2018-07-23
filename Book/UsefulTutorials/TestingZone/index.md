@@ -238,3 +238,12 @@ var x = 10
 assert(x == 10) 
 
 {% endexercise %}
+
+# Testing video plugins 
+### Testing Google Drive Video
+**_Note:_** I added `plugins: ["google-drive-video"]` to `book.json`
+
+**_Note:_** The video should has the property of 'anyone with link can view'
+{% gdrive %}https://drive.google.com/file/d/10D3EOKvQz5s1Lz2_jClHZHwUh8pG34yJ/view?usp=sharing{% endgdrive %}
+
+
