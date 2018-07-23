@@ -85,3 +85,7 @@ assert(x == 10)
 # Testing Google drive Video plugin
 **_Note:_** I added `plugins: ["google-drive-video"]` to `book.json`
 {% gdrive %}https://drive.google.com/file/d/10D3EOKvQz5s1Lz2_jClHZHwUh8pG34yJ/view?usp=sharing{% endgdrive %}
+
+# Testing html5-video Plugin
+**_Note:_** I added `plugins: ["html5-video"]` to `book.json`
+{% video %}../../../videos/MichaelBuble.mp4{% endvideo %}

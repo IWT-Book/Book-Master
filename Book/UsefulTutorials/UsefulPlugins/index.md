@@ -141,7 +141,7 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 7. 
 
-    * Name: gitbook-plugin-html5-video (**_Need to be test it_**)
+    * Name: gitbook-plugin-html5-video (**_Working 100% on 7/22/2018_**)
     * Description: This plugin helps you to include Video tag in your html5 pages.
      
       This plugins requires gitbook >=2.0.0.

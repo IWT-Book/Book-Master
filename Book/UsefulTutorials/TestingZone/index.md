@@ -247,3 +247,12 @@ assert(x == 10)
 {% gdrive %}https://drive.google.com/file/d/10D3EOKvQz5s1Lz2_jClHZHwUh8pG34yJ/view?usp=sharing{% endgdrive %}
 
 
+https://www.youtube.com/watch?v=O1-4u9W-bns
+
+[show the video](../../../videos/MichaelBuble.mp4)
+
+1. {% video %}../../../videos/MichaelBuble.mp4{% endvideo %}
+
+2. {% video width="700", height="550" %}../../../videos/MichaelBuble.mp4{% endvideo %}
+
+3. {% video width="700", height="550", loop="loop", controls="controls" %}../../../videos/MichaelBuble.mp4{% endvideo %}
