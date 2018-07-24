@@ -71,5 +71,6 @@
     * [How to use Interactive Exercises Plugin](Book/HowTo/Exercises.md)
     * [How to use Google Drive Video plugin](Book/HowTo/GoogleDriveVideo.md)
     * [How to use HTML5-Video plugin](Book/HowTo/HTML5Video.md)
+    * [How to use Markdown Video](Book/HowTo/MarkdownVideo.md)
    
    

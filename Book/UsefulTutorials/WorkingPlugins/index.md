@@ -89,3 +89,9 @@ assert(x == 10)
 # Testing html5-video Plugin
 **_Note:_** I added `plugins: ["html5-video"]` to `book.json`
 {% video %}../../../videos/MichaelBuble.mp4{% endvideo %}
+
+# Testing Markdown Video plugin
+**_Note:_** I added `plugins: ["markdown-video"]` to `book.json`
+<video id="my-video" controls preload="auto" width="100%" height="100%" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+  <source src="../../../videos/MichaelBuble.mp4" type='video/mp4'>
+</video>

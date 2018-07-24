@@ -9,6 +9,7 @@
         "click-reveal",
         "google-drive-video",
         "html5-video",
+        "markdown-video",
         "quiz"
     ],
     "pluginsConfig": {

@@ -247,12 +247,22 @@ assert(x == 10)
 {% gdrive %}https://drive.google.com/file/d/10D3EOKvQz5s1Lz2_jClHZHwUh8pG34yJ/view?usp=sharing{% endgdrive %}
 
 
+# Testing copy paste links
 https://www.youtube.com/watch?v=O1-4u9W-bns
 
+# Testing making markdown link
 [show the video](../../../videos/MichaelBuble.mp4)
 
+#Testing HTML5 video tag
 1. {% video %}../../../videos/MichaelBuble.mp4{% endvideo %}
 
 2. {% video width="700", height="550" %}../../../videos/MichaelBuble.mp4{% endvideo %}
 
 3. {% video width="700", height="550", loop="loop", controls="controls" %}../../../videos/MichaelBuble.mp4{% endvideo %}
+
+#Testing markdown video plugin
+<video id="my-video" controls preload="auto" width="100%" height="100%" poster="MY_VIDEO_POSTER.jpg" data-setup="{}">
+  <source src="../../../videos/MichaelBuble.mp4" type='video/mp4'>
+</video>
+
+

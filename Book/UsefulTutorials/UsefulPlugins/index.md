@@ -150,7 +150,7 @@ In addition, I, Raafat Samuail, have not test any of them.
 
 8. 
 
-    * Name: markdown video plugin for GitBook (**_Need to be test it_**)
+    * Name: markdown video plugin for GitBook (**_Working 100% on 7/23/2018_**)
     * Description: Plugin for GitBook 3 which renders video videos detected in the book markdown.
     * [Gitbook Link](https://plugins.gitbook.com/plugin/markdown-video)
     * [Github Link]: N/A
