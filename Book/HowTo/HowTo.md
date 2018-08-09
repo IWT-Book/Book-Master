@@ -8,3 +8,4 @@
 5. [How to use Google Drive Video Plugin](GoogleDriveVideo.md)
 6. [How to use HTML5 Video Plugin](HTML5Video.md)
 7. [How to use Markdown Video Plugin](MarkdownVideo.md)
+8. [How to use Chrome Tracing](ChromeTracing.md)

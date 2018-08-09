@@ -19,3 +19,6 @@
     </question>
     
 </quiz>
+
+###Testing if we can have a picture next to the link 
+[![HTML Quiz Icon](../../../images/quizIcon.png) HTML Link](www.google.com)

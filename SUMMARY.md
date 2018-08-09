@@ -18,7 +18,7 @@
        * [Header](Book/HTML/Sections/header.md)
        * [Footer](Book/HTML/Sections/footer.md)
        * [Address](Book/HTML/Sections/address.md)
-       * [HTML Quiz](Book/HTML/Sections/Quiz.md)
+       * ![HTML Quiz Icon](images/quizIcon.png)[10. HTML Quiz](Book/HTML/Sections/Quiz.md)
    * [Textual Elements]()
    * [Links]()
    * [Images]()
@@ -72,5 +72,6 @@
     * [How to use Google Drive Video plugin](Book/HowTo/GoogleDriveVideo.md)
     * [How to use HTML5-Video plugin](Book/HowTo/HTML5Video.md)
     * [How to use Markdown Video](Book/HowTo/MarkdownVideo.md)
+    * [How to use Chrome Tracing](Book/HowTo/ChromeTracing.md)
    
    
