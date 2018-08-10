@@ -9,3 +9,4 @@
 6. [How to use HTML5 Video Plugin](HTML5Video.md)
 7. [How to use Markdown Video Plugin](MarkdownVideo.md)
 8. [How to use Chrome Tracing](ChromeTracing.md)
+9. [How to debug Node Using DevTools](NodeJsDebbuger.md)

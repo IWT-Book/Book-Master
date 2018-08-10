@@ -73,5 +73,6 @@
     * [How to use HTML5-Video plugin](Book/HowTo/HTML5Video.md)
     * [How to use Markdown Video](Book/HowTo/MarkdownVideo.md)
     * [How to use Chrome Tracing](Book/HowTo/ChromeTracing.md)
+    * [How to debug NodeJs using DevTools](Book/HowTo/NodeJSDebbuger.md)
    
    
