@@ -1,6 +1,6 @@
 # Summary
-
 * [Introduction](README.md)
+* [Logos](LOGO.md)
 * [Fundamentals](Book/Fundamentals/index.md)
 * [Browsers](Book/Browsers/index.md)
     * [How Browsers Work](Book/HTML/Browsers/how-browsers-work.md)
@@ -18,7 +18,8 @@
        * [Header](Book/HTML/Sections/header.md)
        * [Footer](Book/HTML/Sections/footer.md)
        * [Address](Book/HTML/Sections/address.md)
-       * ![HTML Quiz Icon](images/quizIcon.png)[10. HTML Quiz](Book/HTML/Sections/Quiz.md)
+       * ![HTML Quiz Icon](images/quizIcon.png)
+       * [10. HTML Quiz](Book/HTML/Sections/Quiz.md)
    * [Textual Elements]()
    * [Links]()
    * [Images]()

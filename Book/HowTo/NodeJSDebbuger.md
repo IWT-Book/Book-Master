@@ -22,10 +22,10 @@ After I run the commend, I will get the following result.
 Now anything that turn its color to green means the debugger is at that line. 
 
 Now to navigate your code while you are in the debugging mode.
-`c` => continue with code execution
-`n` => execute this line and go to the next line
-`s` => step into this function
-`o` => finish function execution and step out
+* `c` => continue with code execution
+* `n` => execute this line and go to the next line
+* `s` => step into this function
+* `o` => finish function execution and step out
 
 The second way is using Chrome Devtools. Now there are few ways to run it. 
 
