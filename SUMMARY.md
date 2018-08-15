@@ -65,6 +65,7 @@
     * [Useful Plugins](Book/UsefulTutorials/UsefulPlugins/index.md)
     * [Working Plugins](Book/UsefulTutorials/WorkingPlugins/index.md)
     * [Testing Zone](Book/UsefulTutorials/TestingZone/index.md)
+    * [Flexbox Tutorial](Book/UsefulTutorials/Flexbox/FelxboxTutorial.md)
 * [How To](Book/HowTo/HowTo.md)
     * [How to Use Panel Plugin](Book/HowTo/PanelPlugin.md)
     * [How to Use Quiz Plugin](Book/HowTo/QuizPlugin.md)
