@@ -45,7 +45,7 @@ Now the definition of display
 
 Now let's uncomment line 24, click result and let's see what will happened? Yes, you are right. We have a border around the flex container. Which it means, my container goes across the page. Now what if I do not like that, or I want my border to be around the content only. We can change line 23 from `display:flex` to `display:inline-flex`.
 
-**Flex-Direction**
+##Flex-Direction
 
 Now we have a new topic which we call it Flex-Direction. Flex-Direction is a little bit confusing, and I'll try to simplify it. 
 
@@ -66,5 +66,37 @@ Let's look over the following picture and defined few terms to be all at the sam
 <section>
   {% codeeditor src='../../../Flexbox/Flex-Direction.html' %}{% endcodeeditor %}
 </section>
+
+In total, we have four directions. Let's look at each one separately with respect to **main axis** and **cross axis**
+
+Now go a head and uncomment line 25 `flex-direction:row;`, and click on result. Yes, nothing happened because `flex-direction:row;` is the default value for any flex container. Which it means, all flex items will be next each other strating from the left of main axis going in the right direction of the main axis. The cross axis is going from the top to the bottom. 
+
+Now go a head and uncomment line 26 `flex-direction:column;`, and click on result. `flex-direction:column;` will put all the flex items in the column view (One in top of each other instated of next to each other). Keep in mind if you changed the direction, now you are changing the axises too. Therefore, your main axis is now going from TOP to BOTTOM. The reason for that is your items changed its directions.
+
+Now go a head and uncomment line 27 `flex-direction:row-reverse;`, and click on result. `flex-direction:row;` switch the direction of the default view, and make it goes from right to left. Which it means, all flex items will be next each other strating from the right of main axis going in the left direction of the main axis. The cross axis is going from the top to the bottom.
+
+Now go a head and uncomment line 28 `flex-direction:column-reverse;`, and click on result. `flex-direction:column-reverse;` will put all the flex items in the column view starting from the last item. Since we changed the direction now the axis is changed also. Therefore, your main axis is now going from BOTTOM to TOP. 
+
+##Wrapping Elements
+
+Now if you remember at the beginning of the tutorial, I said that each box is taking the width of its content. Which in this case, it is the number at each box. Thoes numbers have 100px as their font size. What about if I want to give it more width without changing the font size. What about if I want to design my own boxes with my own sizes without depending on its content. Do not worry this is flexbox, and it is so flexiable. I am also going to use our same example so that we are familiar with the code. 
+
+Uncomment line 27, and click result. You will not see any changes in the look. Therefore, `flex-wrap: nowrap;` is the defualt view of flexbox. 
+
+Go a head and uncomment line 13, and click result. What you see now is there no more white space left over. However let's do a little calcuation. We have five boxes and each we give it 500px. If we multiply 500 by 5, we get 2500px. I do not know about your computer, but I definitely do not have 2500px in my screeen. So what is happenning here? 
+
+The answer is simple. Flexbox is nice, and trying to make us do less work and continue with the beautiful look. By default, flexbox is trying to fit all its children in one line.
+
+<section>
+  {% codeeditor src='../../../Flexbox/Flex-Wrapping.html' %}{% endcodeeditor %}
+</section>
+
+Now let's go and change the line 13 from 500px to 200px and let's click on result and see what it will happened. 
+
+Now since we have line 28 uncomment, and we changed the width of each box. The flexbox will take the width of each box and when it cannot fit it any more will take it to the next line. 
+
+Let's uncomment line 29, and click result, now you might be thinking that this will filp the order of the items. 
+
+However, this will reverse the items through the cross axis not through the main axix. 
 
 
