@@ -99,4 +99,71 @@ Let's uncomment line 29, and click result, now you might be thinking that this w
 
 However, this will reverse the items through the cross axis not through the main axix. 
 
+##Flexbox Ordering
+
+**Flexbox Ordering** is a way of moving the order of dom element without actully moving them in your dom. 
+
+Now I am useing the same example as before so that we are familiar with the code. The only change that I did to the code was adding line 12. This line of code will be explained later. For now, this line is just putting all these boxes in the container with even distribution of the white space. 
+
+Flexbox has default ordering value which it is equal to 0. You can uncomment the line 30, and click the result, and you wont see any changes because 0 is the default value. 
+
+Now comment line 30 back, and uncomment line 31, and click the result. You might be surprise because box 3 now jumped all the way at the end. 
+
+<section>
+  {% codeeditor src='../../../Flexbox/Flex-Ordering.html' %}{% endcodeeditor %}
+</section>
+
+`order: 1;` means the following; take that chiled or that flex item and put it infront of all the items that has `order: 0;`.
+
+If you uncomment line 34, you will see that box 1 will be after box 3 because its order is 2. So flexbox will order all its items with `order:0` and then `order:1` and then `order:2`. Flexbox will continue if there are any more ordering. 
+
+**_Note_**: Flexbox ordering works with negative values.  
+
+##Flexbox Alignment & Justify-Content
+
+**_Justify-Content_** means how the flex items are aiign on the main axis. 
+
+`justify-content:flex-start;` is the default view of the flex items. You can check that by uncomment line 25. 
+
+`justify-content:flex-end;` takes all the flex items and put them at the end of flex container.
+
+<section>
+  {% codeeditor src='../../../Flexbox/Flex-Alignment.html' %}{% endcodeeditor %}
+</section>
+
+`justify-content:center;` means put all the flex items in the center of the container.
+
+`justify-content:space-between;` means take the first element put it at the beginning of the container and take the last element and put it at end of the container. Take the other elements and put them in between the two with even space. 
+
+Now what will happened if my flex direction is column not row? let's check that out by uncoment lines 25, 29, and 30. 
+The look changed to the column view, but what happened to the space. The space is gone because the items are big. we can change the font size and make 25px. In order to show the space, have to give our container a hight. Therefore we have `min-height:100vh`
+
+##Flexbox Alignment & Centering
+
+Now in the previous section we were talking about the justify-content and how justify content justify items on the main axis. Now in Align items will change the axis from main to cross without changing the direction. 
+
+Now let's jump directly to the action, and uncomment line 26, and click on the result. What happened here, I thought this will put the flex items in the center of the screen base on the cross axis. 
+
+Actuly this is not weired, if you look at the container it has a lot of width but there is not any height. So it cannot shift it to the center. We have to give our container a height. Therefore you have to uncomment line 27. 
+
+Now let's comment line 26 back, and look at the result. If we give our container some height, by default the `align-items:stretch` is set. Thats why you see the colors are start from the top and stretch to the bottom.  
+
+<section>
+  {% codeeditor src='../../../Flexbox/Flex-Centering.html' %}{% endcodeeditor %}
+</section>
+
+`align-items:flex-start` will put all the flex items at the beginning of the cross axis.
+
+`align-items:flex-end` will put all the flex items at the end of the container base on the cross axis.
+
+`align-items:baseline;` will put all the flex items next to each other and their content are perfectly on a line. 
+
+![baseline](images/baseline.png)
+
+
+
+
+
+
+
 
