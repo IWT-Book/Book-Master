@@ -7,8 +7,7 @@ Accourding to Mozilla Developer,
  > "The Flexible Box Module, usually referred to as flexbox, was designed as a one-dimensional layout model, and as a method that could offer space distribution between items in an interface and powerful alignment capabilities."
 
 Accourding to sitepoint, 
-
- > "flexbox, is a layout mode providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices."
+> "flexbox, is a layout mode providing for the arrangement of elements on a page such that the elements behave predictably when the page layout must accommodate different screen sizes and different display devices."
 
 Some other people descriped flexbox as following,
 
@@ -25,6 +24,7 @@ Please keep in mind that flexbox is not a single property huge segment. This seg
 ![Flex Container and Items](images/flexContainerAndItems.png)
 
 <section>
+  <h3> Flexbox Example </h3>
   {% codeeditor src='../../../Flexbox/IntroFlex.html' %}{% endcodeeditor %}
 </section>
 
@@ -64,6 +64,7 @@ Let's look over the following picture and defined few terms to be all at the sam
 * **cross-start | cross-end** - Flex lines are filled with items and placed into the container starting on the cross-start side of the flex container and going toward the cross-end side.
 
 <section>
+  <h3> Flexbox Direction Example </h3>
   {% codeeditor src='../../../Flexbox/Flex-Direction.html' %}{% endcodeeditor %}
 </section>
 
@@ -88,6 +89,7 @@ Go a head and uncomment line 13, and click result. What you see now is there no 
 The answer is simple. Flexbox is nice, and trying to make us do less work and continue with the beautiful look. By default, flexbox is trying to fit all its children in one line.
 
 <section>
+  <h3> Flexbox Wrapping Example </h3>
   {% codeeditor src='../../../Flexbox/Flex-Wrapping.html' %}{% endcodeeditor %}
 </section>
 
@@ -110,6 +112,7 @@ Flexbox has default ordering value which it is equal to 0. You can uncomment the
 Now comment line 30 back, and uncomment line 31, and click the result. You might be surprise because box 3 now jumped all the way at the end. 
 
 <section>
+  <h3> Flexbox Ordering Example </h3>
   {% codeeditor src='../../../Flexbox/Flex-Ordering.html' %}{% endcodeeditor %}
 </section>
 
@@ -128,6 +131,7 @@ If you uncomment line 34, you will see that box 1 will be after box 3 because it
 `justify-content:flex-end;` takes all the flex items and put them at the end of flex container.
 
 <section>
+  <h3> Flexbox Justify-Content Example </h3>
   {% codeeditor src='../../../Flexbox/Flex-Alignment.html' %}{% endcodeeditor %}
 </section>
 
@@ -149,6 +153,7 @@ Actuly this is not weired, if you look at the container it has a lot of width bu
 Now let's comment line 26 back, and look at the result. If we give our container some height, by default the `align-items:stretch` is set. Thats why you see the colors are start from the top and stretch to the bottom.  
 
 <section>
+ <h3> Flexbox Centering Example </h3>
   {% codeeditor src='../../../Flexbox/Flex-Centering.html' %}{% endcodeeditor %}
 </section>
 
@@ -159,6 +164,43 @@ Now let's comment line 26 back, and look at the result. If we give our container
 `align-items:baseline;` will put all the flex items next to each other and their content are perfectly on a line. 
 
 ![baseline](images/baseline.png)
+
+`align-self:center` you can use this command to affect one box or multipul boxes at at time without affecting the whole flex container. You can uncomment line 18 and 21.
+
+##Flexbox Sizing
+
+Flex container has default value, and set its items base on their content. 
+
+One of the property of Flexbox is that can shrink and grow. 
+Now if we uncomment line 12, we will see that all flex items take all the white space and grow nicly on the main axis. 
+
+What about if I want to make one box bigger then the rest. Instate of giving `flex:1`, we can give it a bigger value like 2. (Uncomment line 19).
+
+<section>
+  <h3> Flexbox Sizing Example </h3>
+  {% codeeditor src='../../../Flexbox/Flex-Sizing.html' %}{% endcodeeditor %}
+</section>
+
+## Flex-grow, Flex-shrink, and Flex-basis
+
+**Flex-grow** This defines the ability for a flex item to grow if necessary. The default value is 0. Negative numbers are invalid. 
+
+**Flex-Shrink** This defines the ability for a flex item to shrink if necessary. The default value is 1. Negative numbers are invalid. 
+
+**Flex-Basis** This defines the default size of an element before the remaining space is distributed. The default value is auto. 
+
+**_Important Note_** Using `flex:1 /*or any other number*/;`, means we are setting 3 properties`flex-grow`, `flex-shrink`, and `flex-basis`. Uncomment line 12 and click result. After you do so, comment line 12 back, and uncomment line 13, and click result. Do you see any difference?
+
+Flex-Grow and Flex-Shrink are easy to understand, and you get what they do from their name. However, What does `flex-basis` do? 
+
+Uncomment line 18 and 23. Click result, now each box or each flex item has width of 200px. What do you think will happend if you uncomment line 19? What happened here was flex item 1 and flex item 2 each one of them got 200px but box one got all the empty space. Is that mean I can evenly distribute the empty space amoung all the items? The answer is Yes you can. Uncomment line 24. You can make one flex itme bigger than the other by setting flex-grow to a bigger number. 
+
+<section>
+  <h3> Flexbox Grow, Shrink, and Basis Example </h3>
+  {% codeeditor src='../../../Flexbox/Flex-GrowShrinkBasis.html' %}{% endcodeeditor %}
+</section>
+
+
 
 
 
