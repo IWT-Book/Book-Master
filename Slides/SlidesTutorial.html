@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Thomas Powell Lecture</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					Slide 1 
+					<p>To create more slides, create &lt;section&gt; tag
+					   under &lt;div&gt; tag with "slides" class. 
+					   You can use regular html to create your slides
+					</p>
+				</section>
+				<section>
+					Slide 2
+					<p>example of inserting an image into the slide using regular html </p>
+					<img src="images/exmpleOfSlides.PNG" alt="Example of inserting slides" >
+				</section>
+				<section>Slide 3
+					<p>Slide 3 is Horizontal slide which it means slide 3 &lt;section&gt; tag is not
+						nested under any other &lt;section&gt;. Slide 4 will explain Vertical slides. 
+				</section>
+				<section>
+					<section>
+						Slide 4 
+						<p> Slide 4 has Vertical slides, and slide 4 is the root of these slides.
+							To create vertical slide, you need to create &lt;section&gt; inside 
+							another &lt;section&gt; tag. </p>
+					</section>	
+					<section>
+						Slide 4 A 
+						<p>Vertical Slides, you can click "Esc" to see your slides.
+						   The first &lt;section&gt; is the root.
+						</p>
+					</section>		
+				</section>
+				<section>
+					<section>
+						Slide 5 
+						<p>You can use markdown language to create slides. To use markdown language, you need to do the following</p>
+						</section>
+					<section>
+						Slide 5 A
+						<p>You have to use the correct tags</p>
+						<img src="images/markdown.PNG" alt="Markdown Example">
+					</section>
+					<section>
+						Slide 5 B 
+						<p>You have to use the right dependencies too. The following picture shows how to do so.</p>
+						<img src="images/MarkdownDepend.png" alt="Markdown dependencies">
+					</section>
+				</section>
+				<section>
+					<section>
+						Slide 6 Configuration
+						<p> All of the Configuration are set to default</p> 
+					</section>
+					<section>
+						Slide 6 A 
+						<img src="images/configiration.PNG" alt="configiration image">
+					</section>
+					<section>
+						Slide 6 B 
+						<br>
+						<img src="images/configiration1.PNG" alt="configiration image">
+					</section>
+					<section>
+						Slide 6 C 
+						<br>
+						<img src="images/configiration2.PNG" alt="configiration image">
+					</section>
+					<section>
+						Slide 6 C 
+						<br>
+						<img src="images/configiration3.PNG" alt="configiration image">
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				]
+			});
+		</script>
+	</body>
+</html>
