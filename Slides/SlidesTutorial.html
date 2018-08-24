@@ -26,7 +26,7 @@
 				<section>
 					Slide 2
 					<p>example of inserting an image into the slide using regular html </p>
-					<img src="images/exmpleOfSlides.PNG" alt="Example of inserting slides" >
+					<img data-src="images/exmpleOfSlides.PNG" alt="Example of inserting slides" >
 				</section>
 				<section>Slide 3
 					<p>Slide 3 is Horizontal slide which it means slide 3 &lt;section&gt; tag is not
@@ -54,12 +54,12 @@
 					<section>
 						Slide 5 A
 						<p>You have to use the correct tags</p>
-						<img src="images/markdown.PNG" alt="Markdown Example">
+						<img data-src="images/markdown.PNG" alt="Markdown Example">
 					</section>
 					<section>
 						Slide 5 B 
 						<p>You have to use the right dependencies too. The following picture shows how to do so.</p>
-						<img src="images/MarkdownDepend.png" alt="Markdown dependencies">
+						<img data-src="images/MarkdownDepend.png" alt="Markdown dependencies">
 					</section>
 				</section>
 				<section>
@@ -69,34 +69,91 @@
 					</section>
 					<section>
 						Slide 6 A 
-						<img src="images/configiration.PNG" alt="configiration image">
+						<img data-src="images/configiration.PNG" alt="configiration image">
 					</section>
 					<section>
 						Slide 6 B 
 						<br>
-						<img src="images/configiration1.PNG" alt="configiration image">
+						<img data-src="images/configiration1.PNG" alt="configiration image">
 					</section>
 					<section>
 						Slide 6 C 
 						<br>
-						<img src="images/configiration2.PNG" alt="configiration image">
+						<img data-src="images/configiration2.PNG" alt="configiration image">
 					</section>
 					<section>
-						Slide 6 C 
+						Slide 6 D 
 						<br>
-						<img src="images/configiration3.PNG" alt="configiration image">
+						<img data-src="images/configiration3.PNG" alt="configiration image">
+					</section>
+					<section>
+						Slide 6 E 
+						<br>
+						<img data-src="images/configiration4.PNG" alt="configiration image">
+					</section>
+					<section>
+						Slide 6 F 
+						<br>
+						<img data-src="images/configiration5.PNG" alt="configiration image">
+					</section>
+					<section>
+						Slide 6 G 
+						<br>
+						<img data-src="images/configiration6.PNG" alt="configiration image">
+					</section>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						Slide 7 
+						We can add video to the slides
+						[Testing video](../videos/MichaelBuble.mp4)
+					</textarea>
+					<!-- <video controls preload="auto">
+							<source src="../videos/MichaelBuble.mp4" type="video/mp4" >
+					</video> -->
+				</section>
+				<section>	
+					<section>
+						Slide 8
+						<p>Using &lt;iframe&gt; tag</p>
+						<iframe src="https://www.pint.com/" frameborder="0" height="500" width="800"></iframe>
+					</section>
+					<section>
+						Slide 8 A
+						<p>Using &lt;code-editor&gt; tag</p>
+						<iframe code-editor width="100%" height=500px single-tab="result" src="../HTML/4Elements/forms/meter.html"></iframe>
 					</section>
 				</section>
 			</div>
 		</div>
 
 		<script src="lib/js/reveal.js"></script>
+		<script src="lib/js/head.min.js"></script>
+		<script src="plugin/code-editor/encoder.js"></script>
 		<script>
 			Reveal.initialize({
-				
+				backgroundTransition:'zoom',
+				transition: 'convex',
+
 				dependencies: [
+					// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					
+					// Interpret Markdown in <section> elements
 					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+					// // Syntax highlight for <code> elements
+					// { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+					// // Zoom in and out with Alt+click
+					// { src: 'plugin/zoom-js/zoom.js', async: true },
+
+					// // Speaker notes
+					// { src: 'plugin/notes/notes.js', async: true },
+
+					// // MathJax
+					// { src: 'plugin/math/math.js', async: true }
 				]
 			});
 		</script>
