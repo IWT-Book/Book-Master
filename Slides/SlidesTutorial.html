@@ -102,15 +102,21 @@
 						<img data-src="images/configiration6.PNG" alt="configiration image">
 					</section>
 				</section>
-				<section data-markdown>
-					<textarea data-template>
-						Slide 7 
-						We can add video to the slides
-						[Testing video](../videos/MichaelBuble.mp4)
-					</textarea>
-					<!-- <video controls preload="auto">
-							<source src="../videos/MichaelBuble.mp4" type="video/mp4" >
-					</video> -->
+				<section>
+					<section>
+						<h2>Video</h2>
+						
+						<video controls preload="auto">
+							<source data-src="../videos/MichaelBuble.mp4" type="video/mp4">
+						</video>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							Slide 7 A
+							We can add video to the slides using markdown
+							[Testing video](../videos/MichaelBuble.mp4)
+						</textarea>
+					</section>
 				</section>
 				<section>	
 					<section>
@@ -124,6 +130,28 @@
 						<iframe code-editor width="100%" height=500px single-tab="result" src="../HTML/4Elements/forms/meter.html"></iframe>
 					</section>
 				</section>
+				<section>
+					<section>
+						<h1>Slides Background</h1>
+					</section>
+					<section data-background-color="Green">
+						<h3>Color Background</h3>
+					</section>
+					<section>
+						<h2>Image Properties</h2> 
+						<img src="images/imageProb.PNG" alt="Image Properties">
+					</section>
+					<section data-background-video="../videos/MichaelBuble.mp4">
+						<h1>Video Background</h1>
+					</section>
+					<section>
+						<h2>Video Properties</h2>
+						<img src="images/videoProp.PNG" alt="Video Properties">
+					</section>
+					<section data-background-iframe="https://pint.com" >
+						<h2>iFrame Background</h2>
+					</section>	
+				</section>
 			</div>
 		</div>
 
@@ -135,6 +163,7 @@
 				backgroundTransition:'zoom',
 				transition: 'convex',
 
+				
 				dependencies: [
 					// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
@@ -156,6 +185,7 @@
 					// { src: 'plugin/math/math.js', async: true }
 				]
 			});
+			
 		</script>
 	</body>
 </html>
