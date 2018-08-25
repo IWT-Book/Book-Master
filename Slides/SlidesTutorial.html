@@ -7,7 +7,24 @@
 		<title>Thomas Powell Lecture</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		
+		<!--Good Themes-->
+		<link rel="stylesheet" href="css/theme/night.css">
+		<!--<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/serif.css">
+		<link rel="stylesheet" href="css/theme/sky.css">
+		-->
+
+		<!-- Ok Themes -->
+		<!-- <link rel="stylesheet" href="css/theme/league.css"> 
+		<link rel="stylesheet" href="css/theme/moon.css"> 
+		<link rel="stylesheet" href="css/theme/simple.css">
+		<link rel="stylesheet" href="css/theme/solarized.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<link rel="stylesheet" href="css/theme/beige.css">-->
+
+		<!--Not Very Good Themes-->
+		<!-- <link rel="stylesheet" href="css/theme/blood.css"> -->
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -105,10 +122,10 @@
 				<section>
 					<section>
 						<h2>Video</h2>
-						
-						<video controls preload="auto">
-							<source data-src="../videos/MichaelBuble.mp4" type="video/mp4">
+						<video data-autoplay controls>
+							<source src="../videos/MichaelBuble.mp4" type="video/mp4">
 						</video>
+						<p>The video tag has "data-autoplay" property which make it auto play</p>
 					</section>
 					<section data-markdown>
 						<textarea data-template>
@@ -152,6 +169,20 @@
 						<h2>iFrame Background</h2>
 					</section>	
 				</section>
+				<section>
+					<h2>Link between two slides</h2>
+					<h3><a href="#/3" >Link to 4th slides</a></h3>
+					<h4>The slides start from 0, so if you want to link to slide 4, you should put number 3</h4>
+				</section>
+				<section>
+					<h1>Navgition</h1>
+					<h3>To navigate through slides press "ESC" or "O"
+					<h3>Press "f" to make slids in Presentation Mode "Full View"
+				</section>	
+				<section>
+					
+				</section>
+
 			</div>
 		</div>
 
@@ -185,6 +216,8 @@
 					// { src: 'plugin/math/math.js', async: true }
 				]
 			});
+			//Slides number current/total
+			Reveal.configure({ slideNumber: 'c/t' });
 			
 		</script>
 	</body>
