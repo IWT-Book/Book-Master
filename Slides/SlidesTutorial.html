@@ -9,19 +9,19 @@
 		<link rel="stylesheet" href="css/reveal.css">
 		
 		<!--Good Themes-->
-		<link rel="stylesheet" href="css/theme/night.css">
-		<!--<link rel="stylesheet" href="css/theme/black.css">
-		<link rel="stylesheet" href="css/theme/serif.css">
-		<link rel="stylesheet" href="css/theme/sky.css">
-		-->
+		<link rel="stylesheet" href="css/theme/night.css" id="theme">
+		<!-- <link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="css/theme/serif.css" id="theme">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+	 -->
 
 		<!-- Ok Themes -->
-		<!-- <link rel="stylesheet" href="css/theme/league.css"> 
-		<link rel="stylesheet" href="css/theme/moon.css"> 
-		<link rel="stylesheet" href="css/theme/simple.css">
-		<link rel="stylesheet" href="css/theme/solarized.css">
-		<link rel="stylesheet" href="css/theme/white.css">
-		<link rel="stylesheet" href="css/theme/beige.css">-->
+		<!-- <link rel="stylesheet" href="css/theme/league.css" id="theme"> 
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme"> 
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
+		<link rel="stylesheet" href="css/theme/solarized.css"id="theme">
+		<link rel="stylesheet" href="css/theme/white.css" id="themes>
+		<link rel="stylesheet" href="css/theme/beige.css" id="theme"> -->
 
 		<!--Not Very Good Themes-->
 		<!-- <link rel="stylesheet" href="css/theme/blood.css"> -->
@@ -33,55 +33,55 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
-					Slide 1 
+				<section data-menu-title="Creating More Slides">
+					<h4>Slide 1</h4> 
 					<p>To create more slides, create &lt;section&gt; tag
 					   under &lt;div&gt; tag with "slides" class. 
 					   You can use regular html to create your slides
 					</p>
 				</section>
-				<section>
-					Slide 2
+				<section data-menu-title="Inserting an Image">
+					<h4>Slide 2 </h4>
 					<p>example of inserting an image into the slide using regular html </p>
 					<img data-src="images/exmpleOfSlides.PNG" alt="Example of inserting slides" >
 				</section>
-				<section>Slide 3
+				<section data-menu-title="Horizontal Slides">Slide 3
 					<p>Slide 3 is Horizontal slide which it means slide 3 &lt;section&gt; tag is not
 						nested under any other &lt;section&gt;. Slide 4 will explain Vertical slides. 
 				</section>
 				<section>
-					<section>
-						Slide 4 
+					<section data-menu-title="Vertical Slides">
+						<h4>Slide 4 </h4>
 						<p> Slide 4 has Vertical slides, and slide 4 is the root of these slides.
 							To create vertical slide, you need to create &lt;section&gt; inside 
 							another &lt;section&gt; tag. </p>
 					</section>	
 					<section>
-						Slide 4 A 
+						<h4>Slide 4 A</h4> 
 						<p>Vertical Slides, you can click "Esc" to see your slides.
 						   The first &lt;section&gt; is the root.
 						</p>
 					</section>		
 				</section>
 				<section>
-					<section>
-						Slide 5 
+					<section data-menu-title="Markdown Language">
+						<h4>Slide 5</h4> 
 						<p>You can use markdown language to create slides. To use markdown language, you need to do the following</p>
 						</section>
 					<section>
-						Slide 5 A
+						<h4>Slide 5 A</h4>
 						<p>You have to use the correct tags</p>
 						<img data-src="images/markdown.PNG" alt="Markdown Example">
 					</section>
 					<section>
-						Slide 5 B 
+						<h4>Slide 5 B</h4> 
 						<p>You have to use the right dependencies too. The following picture shows how to do so.</p>
 						<img data-src="images/MarkdownDepend.png" alt="Markdown dependencies">
 					</section>
 				</section>
 				<section>
-					<section>
-						Slide 6 Configuration
+					<section data-menu-title="Configuration">
+						<h4> Slide 6 </h4>
 						<p> All of the Configuration are set to default</p> 
 					</section>
 					<section>
@@ -120,7 +120,7 @@
 					</section>
 				</section>
 				<section>
-					<section>
+					<section data-menu-title="Video">
 						<h2>Video</h2>
 						<video data-autoplay controls>
 							<source src="../videos/MichaelBuble.mp4" type="video/mp4">
@@ -136,7 +136,7 @@
 					</section>
 				</section>
 				<section>	
-					<section>
+					<section data-menu-title="iFrame">
 						Slide 8
 						<p>Using &lt;iframe&gt; tag</p>
 						<iframe src="https://www.pint.com/" frameborder="0" height="500" width="800"></iframe>
@@ -148,7 +148,7 @@
 					</section>
 				</section>
 				<section>
-					<section>
+					<section data-menu-title="Working in Background">
 						<h1>Slides Background</h1>
 					</section>
 					<section data-background-color="Green">
@@ -169,18 +169,22 @@
 						<h2>iFrame Background</h2>
 					</section>	
 				</section>
-				<section>
+				<section data-menu-title="Linking">
 					<h2>Link between two slides</h2>
 					<h3><a href="#/3" >Link to 4th slides</a></h3>
 					<h4>The slides start from 0, so if you want to link to slide 4, you should put number 3</h4>
 				</section>
-				<section>
+				<section data-menu-title="Navgiate">
 					<h1>Navgition</h1>
 					<h3>To navigate through slides press "ESC" or "O"
 					<h3>Press "f" to make slids in Presentation Mode "Full View"
 				</section>	
-				<section>
-					
+				<section data-menu-title="Notes">
+					<h2>Testing Notes</h2>
+					<h4>Press "S"</h4>
+					<aside class="notes">
+						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit »S« on your keyboard).
+					</aside>
 				</section>
 
 			</div>
@@ -189,13 +193,61 @@
 		<script src="lib/js/reveal.js"></script>
 		<script src="lib/js/head.min.js"></script>
 		<script src="plugin/code-editor/encoder.js"></script>
+		<!-- <script src="plugin/menu/menu.js"></script> -->
 		<script>
 			Reveal.initialize({
 				backgroundTransition:'zoom',
 				transition: 'convex',
+				
+				// The following is for the menu:
+				//https://github.com/denehyg/reveal.js-menu
+
+				menu:{
+					side:'left',
+					width:'normal',
+					numbers: true,
+					titleSelector: 'h1, h2, h3, h4, h5, h6',
+					markers: true,
+					themes: [
+					{ name: 'Black', theme: 'css/theme/black.css' },
+					{ name: 'White', theme: 'css/theme/white.css' },
+					{ name: 'League', theme: 'css/theme/league.css' },
+					{ name: 'Sky', theme: 'css/theme/sky.css' },
+					{ name: 'Beige', theme: 'css/theme/beige.css' },
+					{ name: 'Simple', theme: 'css/theme/simple.css' },
+					{ name: 'Serif', theme: 'css/theme/serif.css' },
+					{ name: 'Blood', theme: 'css/theme/blood.css' },
+					{ name: 'Night', theme: 'css/theme/night.css' },
+					{ name: 'Moon', theme: 'css/theme/moon.css' },
+					{ name: 'Solarized', theme: 'css/theme/solarized.css' }
+					],
+					themes:true,
+					transitions: true,
+					openButton: true,
+					openSlideNumber:true,
+					loadIcons: true
+
+				},
+
+				// The following is for the tool bar
+				// toolbar:{
+				// 	fullscreen: true,
+				// 	notes: true,
+				// 	pause: true,
+				// 	overview: false,
+
+				// },
+
 
 				
 				dependencies: [
+					// Menu Dependenice
+					{src: 'node_modules/reveal.js-menu/menu.js'},
+					
+
+					// { src: 'socket.io/socket.io.js', async: true },
+					// { src: 'plugin/notes-server/client.js', async: true },
+	
 					// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
 					
@@ -207,10 +259,10 @@
 					// { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 
 					// // Zoom in and out with Alt+click
-					// { src: 'plugin/zoom-js/zoom.js', async: true },
+					//{ src: 'plugin/zoom-js/zoom.js', async: true },
 
-					// // Speaker notes
-					// { src: 'plugin/notes/notes.js', async: true },
+					// Speaker notes
+					//{ src: 'plugin/notes/notes.js', async: true },
 
 					// // MathJax
 					// { src: 'plugin/math/math.js', async: true }
