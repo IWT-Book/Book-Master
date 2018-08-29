@@ -7,6 +7,7 @@
 		<title>Thomas Powell Lecture</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		
 		<!--Good Themes-->
 		<link rel="stylesheet" href="css/theme/night.css" id="theme">
@@ -123,7 +124,7 @@
 					<section data-menu-title="Video">
 						<h2>Video</h2>
 						<video data-autoplay controls>
-							<source src="../videos/MichaelBuble.mp4" type="video/mp4">
+							<source data-src="../videos/MichaelBuble.mp4" type="video/mp4">
 						</video>
 						<p>The video tag has "data-autoplay" property which make it auto play</p>
 					</section>
@@ -221,7 +222,6 @@
 					{ name: 'Moon', theme: 'css/theme/moon.css' },
 					{ name: 'Solarized', theme: 'css/theme/solarized.css' }
 					],
-					themes:true,
 					transitions: true,
 					openButton: true,
 					openSlideNumber:true,
@@ -229,14 +229,38 @@
 
 				},
 
-				// The following is for the tool bar
-				// toolbar:{
-				// 	fullscreen: true,
-				// 	notes: true,
-				// 	pause: true,
-				// 	overview: false,
+				// The following is for the toolbar
+				toolbar:{
+					fullscreen: true,
+					pause: true,
+					loadIcons: true,			
+				},
+				
+				// The following is for the chalkboard
+				//https://github.com/rajgoel/reveal.js-plugins/tree/master/chalkboard
+				keyboard: {
+					    67: function() { RevealChalkboard.toggleNotesCanvas() },	// toggle notes canvas when 'c' is pressed
+	    				66: function() { RevealChalkboard.toggleChalkboard() },	// toggle chalkboard when 'b' is pressed
+	    				46: function() { RevealChalkboard.clear() },	// clear chalkboard when 'DEL' is pressed
+	     				8: function() { RevealChalkboard.reset() },	// reset chalkboard data on current slide when 'BACKSPACE' is pressed
+	    				68: function() { RevealChalkboard.download() },	// downlad recorded chalkboard drawing when 'd' is pressed
+					},
 
-				// },
+				chalkboard: { 
+					src: null,
+					readOnly: undefined, 
+					toggleChalkboardButton: { left: "auto", bottom: "auto", top: "30px", right: "30px" },
+					toggleNotesButton: { left: "auto", bottom: "auto", top: "30px", right: "80px" },
+					transition: 800,
+					theme: "whiteboard", // or "chalkboard"
+					// configuration options for notes canvas and chalkboard
+					color: [ 'rgba(0,0,255,1)', 'rgba(255,255,255,0.5)' ],
+					// the number is for the transparent
+					background: [ 'rgba(127,127,127,.31)' , 'plugin/Chalkboard/img/whiteboard.png' ],
+					// the first url is for the note on the slides. The second url is for board
+					pen:  [ 'url(plugin/Chalkboard/img/boardmarker.png), auto', 'url(plugin/Chalkboard/img/boardmarker.png), auto' ],
+				},
+
 
 
 				
@@ -244,9 +268,15 @@
 					// Menu Dependenice
 					{src: 'node_modules/reveal.js-menu/menu.js'},
 					
+					
+					//Toolbar Dependenice
+					{ src: 'node_modules/reveal.js-toolbar/toolbar.js' },
+
+					//Chalkboard Dependenice
+					{ src: 'plugin/chalkboard/chalkboard.js' },
 
 					// { src: 'socket.io/socket.io.js', async: true },
-					// { src: 'plugin/notes-server/client.js', async: true },
+					// { src: 'node_modules/notes-server/client.js', async: true },
 	
 					// Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
 					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
