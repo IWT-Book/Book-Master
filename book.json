@@ -1,6 +1,7 @@
 {
     "plugins": [
         "revealjs",
+        "hints",
         "code-editor",
         "expandable-chapters",
         "theme-iwt",

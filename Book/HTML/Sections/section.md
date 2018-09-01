@@ -14,12 +14,13 @@ Write basic information here about this element.Write basic information here abo
    * Fill in
    * Fill in
    * Fill in
+   
 
 </script>
 </section>
 
 <h3>Example</h3>
-<section>
+<section data-render="both">
   {% codeeditor src='../../../HTML/4Elements/sections/section.html' %}{% endcodeeditor %}
 </section>
 

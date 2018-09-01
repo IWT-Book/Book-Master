@@ -21,14 +21,20 @@ Other elements found in the head include:
 * Internal and linked scripts (&lt;script src="global.js"></script>)
 
 
-<div class="tip">
-![Tip](../../../images/info.svg)  The &lt;title> tag is problematic if malformed.  If unclosed likely the entire page will not render. 
-</div>
+{% hint style='danger' %}
+The &lt;title> tag is problematic if malformed.  If unclosed the entire page will likely not render.
+{% endhint %}
 
 <section>
   <h3>Example</h3>
   {% codeeditor src='../../../HTML/4Elements/document-metadata/head.html' %}{% endcodeeditor %}
 </section>
+
+<section>
+  <h3>Example Take 2</h3>
+  {% codeeditor src='../../../Examples/HTML/head.html' %}{% endcodeeditor %}
+</section>
+
 
 #Allowed Tag Reference
 

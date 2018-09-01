@@ -1,6 +1,6 @@
 # Summary
 * [Introduction](README.md)
-* [Logos](LOGO.md)
+* [Test](Book/test.md)
 * [Fundamentals](Book/Fundamentals/index.md)
 * [Browsers](Book/Browsers/index.md)
     * [How Browsers Work](Book/HTML/Browsers/how-browsers-work.md)
@@ -76,5 +76,7 @@
     * [How to use Markdown Video](Book/HowTo/MarkdownVideo.md)
     * [How to use Chrome Tracing](Book/HowTo/ChromeTracing.md)
     * [How to debug NodeJs using DevTools](Book/HowTo/NodeJSDebbuger.md)
+* [Misc](Book/Misc/index.md)
+    * [Logos](Book/Misc/LOGO.md)
    
    
