@@ -5,7 +5,10 @@
     <title>iframe</title>
 </head>
 <body>
-
+    <p>
+        HTML 5 Specs defines iframe as following, "The iframe element represents a nested browsing context."
+    </p>
+<!-- Text is not allowed inside iframe -->
 <iframe src="http://www.example.com" height="150" width="200"
         name="FloatingFrame1">
     Sorry, your browser doesn't support inline frames.
@@ -14,6 +17,7 @@
 <iframe src="http://www.example.com" height="200" width="200"
         id="chat" sandbox>
 </iframe>
+<!-- Base on https://caniuse.com/#search=iframe seamless is not supported by any browser -->
 <!-- HTML5 example less restricted -->
 <iframe src="http://www.example.com/gadget2" height="200" width="200"
         id="weather" sandbox="allow-same-origin allow-scripts" seamless>

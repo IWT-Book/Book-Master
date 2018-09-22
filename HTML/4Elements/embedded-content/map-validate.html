@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>map</title>
+</head>
+<body>
+    <p>HTML 5 Specs defines the map element as following, 
+        "The map element, in conjunction with an img element
+         and any area element descendants, defines an image map. 
+         The element represents its children."
+    </p>
+    <p>Click on the dog or on the cat to see the different picture</p>
+    <img src="../../images/catNdog.jpg" width="173" height="160" alt="cat and dog" usemap="#catNdogMap">
+    <map name="catNdogMap" id="catNdogMap">
+      <area shape="rect" coords="0,0,72,160" alt="Cat" onclick="alert('clicked in the cat')" href="../../images/cats.jpg" > 
+      <area shape="rect" coords="73,0,170,160" alt="dog" onclick="alert('clicked in the dog')" href="../../images/dogs.jpg">
+      <area shape="default" href="nohref" alt="Clicked elsewhere" onclick="alert('clicked eleswhere')">
+    </map>
+<!-- <map name="mainmap" id="mainmap">
+    <area shape="circle" coords="200,250,25" onclick="alert('clicked in the circle');">
+    <area shape="rectangle" coords="50,50,100,100" onclick="alert('clicked in the rectangle');">
+    <area shape="default" nohref="nohref"  onclick="alert('clicked elsewhere');">
+</map> -->
+</body>
+</html>

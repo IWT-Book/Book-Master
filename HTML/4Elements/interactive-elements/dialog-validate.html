@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dialog</title>
+</head>
+<body>
+    <p>HTML 5 Specs defines dialog as following,
+       "The dialog element represents a part of 
+       an application that a user interacts with
+       to perform a task, for example a dialog box, 
+       inspector, or window." The following example is copied from HTML 5 Specs
+    </p>
+<!-- Not dialog
+<dialog open="true">
+    <header>
+        <h1>HTML5.1 is Coming Soon!</h1>
+        <p><time pubdate datetime="2009-10-31T12:30-11:00"></time></p>
+    </header>
+
+    <p>The new HTML5.1 specification is in the works. </p>
+</dialog>
+End of Page -->
+
+    <dialog open>
+        <h1>Add to Wallet</h1>
+        <label for="num">How many gold coins do you want to add to your wallet?</label>
+        <div><input name=amt id="num" type=number min=0 step=0.01 value=100></div>
+        <p><strong>You add coins at your own risk.</strong></p>
+        <div><label><input name=round type=checkbox> Only add perfectly round coins </label></div>
+        <div><input type=button onclick="submit()" value="Add Coins"></div>
+    </dialog>
+      
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>area</title>
+</head>
+<body>
+    <p>
+        HTML 5 Specs defines area as the following,"The area element represents either a hyperlink with some 
+        text and a corresponding area on an image map, or a dead area on an image map."
+    </p>
+
+    <p>Click on the dog or on the cat to see the different picture</p>
+    <img src="../../images/catNdog.jpg" width="173" height="160" alt="cat and dog" usemap="#catNdogMap">
+    <map name="catNdogMap">
+      <area shape="rect" coords="0,0,72,160" alt="Cat" href="../../images/cats.jpg" > 
+      <area shape="rect" coords="73,0,170,160" alt="dog" href="../../images/dogs.jpg">
+    </map>
+    
+<!-- Original Example -->
+<!-- <map id="primary" name="primary">
+    <area shape="circle" coords="200,250,25" href="another.html">
+    
+    <area shape="default" nohref="nohref">
+</map> -->
+</body>
+</html>

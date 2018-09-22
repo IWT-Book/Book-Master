@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Embedded Content Intro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+</head>
+<body>
+    <p>
+        We are going to define and explain each of the Embedded Content element in its own file. 
+        <a href="https://www.w3.org/TR/html52/semantics-embedded-content.html#semantics-embedded-content">Read More about Embedded Content</a>
+    </p>
+    <p>
+        The following list itmes are the embedded content elements.</p>
+    <ul>
+        <li><a href="embed.html">Embed</a>
+            <div>Embed Attributes are
+                <ul>
+                    <li>Src-Address of the resource </li>
+                    <li>height- Vertical dimension  </li>
+                    <li>width- Horizontal dimension</li>
+                    <li>type-Type of embedded resource </li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="area.html">Area</a>
+            <div>Area Attributes are
+                <ul>
+                    <li>alt - Replacement text for use when images are not available</li> 
+                    <li>coords - Coordinates for the shape to be created in an image map </li>
+                    <li>download - Whether to download the resource instead of navigating to it, and its file name if so </li>
+                    <li>href - Address of the hyperlink </li>
+                    <li>hreflang - Language of the linked resource </li>
+                    <li>rel - Relationship of this document (or subsection/topic) to the destination resource </li>
+                    <li>shape - The kind of shape to be created in an image map </li>
+                    <li>target - browsing context for hyperlink navigation </li>
+                    <li>type - Hint for the type of the referenced resource </li>
+                    <li>referrerpolicy - Referrer policy for fetches initiated by the element </li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="audio.html">Audio</a>
+            <div>Audio Attributes are
+                <ul>
+                    <li>src - Address of the resource</li> 
+                    <li>crossorigin - How the element handles crossorigin requests </li>
+                    <li>preload - Hints how much buffering the media resource will likely need </li>
+                    <li>autoplay - Hint that the media resource can be started automatically when the page is loaded </li>
+                    <li>loop - Whether to loop the media resource</li> 
+                    <li>muted - Whether to mute the media resource by default</li>
+                    <li>controls - Show user agent controls</li> 
+                </ul>
+            </div>
+        </li>
+        <li><a href="iframe.html">iFrame</a>
+            <div>iFrame Attributes are
+                <ul>
+                    <li>Src - Address of the resource</li>
+                    <li>Srcdoc - A document to render in the iframe </li>
+                    <li>Name - Name of nested browsing context </li>
+                    <li>Sandbox - Security rules for nested content</li> 
+                    <li>Allowfullscreen - Whether to allow the iframe’s contents to use requestFullscreen() </li>
+                    <li>Allowpaymentrequest - Whether the iframe’s contents are allowed to use the PaymentRequest interface to make payment requests</li> 
+                    <li>Width - Horizontal dimension</li> 
+                    <li>Height - Vertical dimension</li> 
+                    <li>Referrerpolicy - Referrer policy for fetches initiated by the element </li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="img.html">Image</a>
+            <div>Image Attributes are
+                <ul>
+                    <li>Alt - Replacement text for use when images are not available</li>
+                    <li>Src - Address of the resource</li> 
+                    <li>Srcset - Images to use in different situations
+                        (e.g., high-resolution displays, small monitors, etc)</li> 
+                    <li>Sizes - Image sizes between breakpoints</li> 
+                    <li>Crossorigin - How the element handles crossorigin requests</li>
+                    <li>Usemap - Name of image map to use</li> 
+                    <li>ismap - Whether the image is a server-side image map</li>
+                    <li>Width - Horizontal dimension</li> 
+                    <li>Height - Vertical dimension</li> 
+                    <li>Referrerpolicy - Referrer policy for fetches initiated by the element</li> 
+                    <li>Longdesc - A url that provides a link to an expanded description of the image, defined in [html-longdesc]</li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="map.html">Map</a>
+            <div>Map has only one attribute which it is
+                <ul>
+                    <li>Name</li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="object.html">Object</a>
+            <div>Object Attributes are
+                <ul>
+                    <li>Data - Address of the resource</li> 
+                    <li>Type - Type of embedded resource</li> 
+                    <li>Typemustmatch - Whether the type attribute 
+                        and the Content-Type value need to match for
+                        the resource to be used.</li>
+                    <li>Name - Name of nested browsing context</li> 
+                    <li>Form - Associates the control with a form element</li> 
+                    <li>Width - Horizontal dimension</li> 
+                    <li>Height - Vertical dimension</li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="param.html">Param</a>
+            <div>Param Attributes are
+                <ul>
+                    <li>Name - Name of parameter</li>
+                    <li>Value - Value of parameter</li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="picture.html">Picture</a>
+            <div>Picture has no attributes. However there are two commen elements that
+                we use with the picture element. 
+                <ul>
+                    <li>Source</li>
+                    <li>Img</li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="track.html">Track</a>
+            <div>Track Attributes are
+                <ul>
+                    <li>kind - The type of text track</li>
+                    <li>src - Address of the resource</li> 
+                    <li>srclang - Language of the text track</li> 
+                    <li>label - User-visible label</li> 
+                    <li>default - Enable the track if no other text track is more suitable</li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="source.html">Source</a>
+            <div>Source Attributes are
+                <ul>
+                    <li>Src - Address of the resource</li> 
+                    <li>Type - Type of embedded resource</li> 
+                    <li>Srcset - Images to use in different situations 
+                        (e.g., high-resolution displays, small monitors, etc)</li>
+                    <li>Sizes - Image sizes between breakpoints</li> 
+                    <li>Media - Applicable media </li>
+                </ul>
+            </div>
+        </li>
+        <li><a href="video.html">Video</a>
+            <div>Video Attributes are
+                <ul>
+                    <li>Src - Address of the resource</li> 
+                    <li>Crossorigin - How the element handles crossorigin requests</li> 
+                    <li>Poster - Poster frame to show prior to video playback</li> 
+                    <li>Preload - Hints how much buffering the media resource will likely need</li> 
+                    <li>Autoplay - Hint that the media resource can be started automatically when the page is loaded</li> 
+                    <li>Loop - Whether to loop the media resource</li> 
+                    <li>Muted - Whether to mute the media resource by default</li> 
+                    <li>Controls - Show user agent controls</li> 
+                    <li>Width - Horizontal dimension</li> 
+                    <li>Height - Vertical dimension </li>
+                </ul>
+            </div>
+        </li>
+    </ul>    
+</body>
+</html>

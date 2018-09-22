@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>li</title>
+    <style>
+        #liC{
+            list-style-type: circle;
+        }
+        #liS{
+            list-style-type: square
+        }
+        #liD{
+            list-style-type: disc;
+        }
+        #liI{
+            list-style-type: lower-roman;
+        }
+        #liA{
+            list-style-type:lower-alpha;
+        }
+        #lid{
+            list-style-type:lower-alpha;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        HTML 5 Specs defines li as following, 
+        "The li element represents a list item. 
+        If its parent element is an &lt;ol>, or &lt;ul>, 
+        then the element is an item of the parent element’s list, 
+        as defined for those elements. Otherwise, the list 
+        item has no defined list-related relationship to any other li element."
+    </p>
+<ul>
+    
+    <li id="liC">First list item is a circle</li>
+    <li id="liS" >Second list item is a square</li>
+    <li id="liD" >Third list item is a disc</li>
+</ul>
+<ol>
+
+    <li id="liI">Roman Numerals</li>
+    <li id="liA" value="3">Second list item is letter C</li>
+    <li id="lid">Continue list in lowercase letters</li>
+</ol>
+</body>
+</html>

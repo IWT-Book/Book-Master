@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ul</title>
+    <style>
+        #ul1{
+            list-style-type: circle;
+        }
+        #ul2{
+            list-style-type: circle
+        }
+    </style>
+</head>
+<body>
+    <p>HTML 5 Specs defines ul as following, 
+        "The ul element represents a list of items, 
+        where the order of the items is not important — that is,
+        where changing the order would not materially change the meaning of the document."
+    </p>
+<ul id="ul1" title="Sushi Short List">
+    <li>Maguro</li>
+    <li>Ebi</li>
+    <li>Hamachi</li>
+</ul>
+
+<!-- Correct list nesting -->
+<ul id="ul2"  title="Sushi Short List">
+    <li>Item 1
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+        </ul></li>
+    <li>Item 2</li>
+</ul>
+</body>
+</html>

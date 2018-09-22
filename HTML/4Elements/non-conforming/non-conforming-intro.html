@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Non-Conforming Intro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script> -->
+</head>
+<body>
+    <p>HTML 5 Specs defines non-conforming elements as following,
+        "Elements in the following list are entirely obsolete, and must not be used by authors:"
+    </p>
+    <div>
+        <ul>
+            <li><a href="plaintext.html">Plaintext:</a> Use the "text/plain" MIME type instead.</li>
+            <li><a href="spacer.html">Spacer</a></li>
+            <li><a href="strike.html">Strike:</a> Use del instead if the element is marking an edit, otherwise use s instead.</li>
+            <li><a href="tt.html">Tt</a></li>
+            <li><a href="xmp.html">Xmp:</a> Use pre and code instead, and escape "&lt;" and "&" characters as "&lt;" and "&amp;" respectively.</li>
+            <li><a href="isindex.html">Isindex:</a> Use an explicit &lt;form> and text control combination instead.</li>
+            <li><a href="layer.html">Layer</a></li>
+            <li><a href="listing.html">Listing:</a> Use pre and code instead.</li>
+            <li><a href="marquee.html">Marquee</a></li>
+            <li><a href="multicol.html">Multicol</a></li>
+            <li><a href="nobr.html">Nobr</a></li>
+            <li><a href="ilayer.html">ilayer</a></li>
+            <li><a href="acronym.html">Acronym:</a> Use &lt;abbr> instead.</li>
+            <li><a href="applet.html">Applet:</a> Use &lt;embed> or &lt;object> instead.</li>
+            <li><a href="basefont.html">Basefont</a></li>
+            <li><a href="bgsound.html">Bgsound:</a> Use &lt;audio> instead.</li>
+            <li><a href="big.html">Big</a></li>
+            <li><a href="blink.html">Blink</a></li>
+            <li><a href="center.html">Center</a></li>
+            <li><a href="command.html">Command</a></li>
+            <li><a href="comment.html">Comment</a></li>
+            <li><a href="dir.html">Dir</a> Use &lt;ul> instead.</li>
+            <li><a href="frame.html">Frame</a></li>
+            <li><a href="font.html">Font</a></li>
+            <li><a href="frameset.html">Frameset</a></li>
+            <li><a href="hgroup.html">Hgroup</a></li>
+            <li><a href="noembed.html">Noembed:</a> Use &lt;object> instead of &lt;embed> when fallback is necessary.</li>
+            <li><a href="noFrames.html">Noframes</a> Either use &lt;iframe> and CSS instead, or use server-side includes to generate complete pages with the various invariant parts merged in.</li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="menuitem.html">Menuitem</a></li>
+        </ul>
+    </div>
+    <p>The following attributes are obsolete (though the elements are still part of the language), and must not be used by authors:</p>
+    <div>
+        <ul>
+            <li>charset on &lt;a> elements</li> 
+            <li>charset on &lt;link> elements  
+              <div> Use an HTTP Content-Type header on the linked resource instead. </div>
+            </li> 
+            <li>coords on &lt;a> elements </li> 
+            <li>shape on &lt;a> elements 
+               <div> Use area instead of a for image maps.</div>
+            </li>
+            <li>methods on &lt;a> elements </li> 
+            <li>methods on &lt;link> elements 
+                <div>Use the HTTP OPTIONS feature instead.</div>
+            </li>
+            <li>name on &lt;a> elements (except as noted in the previous section) </li>
+            <li>name on &lt;embed> elements </li> 
+            <li>name on &lt;img> elements </li> 
+            <li>name on &lt;option> elements
+                <div> Use the id attribute instead.</div>
+            </li>
+            <li>urn on &lt;a> elements</li> 
+            <li>urn on &lt;link> elements 
+               <div>Specify the preferred persistent identifier using the href attribute instead.</div>
+            </li>   
+            <li>accept on &lt;form> elements 
+               <div>Use the accept attribute directly on the input elements instead.</div>
+            </li>   
+            <li>hreflang on &lt;area> elements</li> 
+               
+            <li>type on &lt;area elements 
+               <div>These attributes do not do anything useful, and for historical reasons there are no corresponding IDL attributes on area elements. Omit them altogether.</div>
+            </li>
+            <li>nohref on &lt;area> elements 
+               <div>Omitting the href attribute is sufficient; the nohref attribute is unnecessary. Omit it altogether.</div>
+            </li> 
+               
+            <li>profile on &lt;head> elements 
+               <div>When used for declaring which meta terms are used in the document, unnecessary; omit it altogether, and register the names.
+               When used for triggering specific user agent behaviors: use a link element instead.</div>
+            </li>
+            <li>version on &lt;html> elements 
+               <div>Unnecessary. Omit it altogether.</div>
+            </li>
+               
+            <li>ismap on &lt;input> elements 
+              <div> Unnecessary. Omit it altogether. All input elements with a type attribute in the Image Button state are processed as server-side image maps.</div>
+            </li>
+            
+            <li>usemap on &lt;input> elements 
+               <div>Use img instead of input for image maps.</div>
+            </li>
+               
+            <li>longdesc on &lt;iframe> elements </li> 
+               
+            <li>longdesc on &lt;img> elements  
+               <div>Use a regular a element to link to the description, or (in the case of images) use an image map to provide a link from the image to the image’s description.</div>
+            </li>
+            <li>lowsrc on &lt;img> elements 
+               <div>Use a progressive JPEG image (given in the src attribute), instead of using two separate images.</div>
+            </li>
+               
+            <li>target on &lt;link> elements 
+              <div>Unnecessary. Omit it altogether.</div>
+            </li>
+            <li>scheme on &lt;meta> elements 
+               <div>If more than one scheme needs to be declared for a meta element make the scheme declaration part of the value.</div>
+            </li>    
+            <li>archive on &lt;object> elements </li>
+            <li>classid on &lt;object> elements </li>
+            <li>code on &lt;object> elements </li>
+            <li>codebase on &lt;object> elements </li>
+            <li>codetype on &lt;object> elements 
+               <div>Use the data and type attributes to invoke plugins. To set parameters with these names in particular, the param element can be used.</div>
+            </li>
+               
+            <li>declare on &lt;object> elements 
+                <div>Repeat the object element completely each time the resource is to be reused.</div>
+            </li>
+            <li>standby on &lt;object> elements 
+               <div> Optimize the linked resource so that it loads quickly or, at least, incrementally.</div>
+            </li>
+
+            <li>type on &lt;param> elements</li>
+            <li>valuetype on &lt;param> elements 
+               <div>Use the name and value attributes without declaring value types.</div>
+            </li>
+            
+            <li>language on &lt;script> elements (except as noted in the previous section) 
+                <div>Use the type attribute instead.</div>
+            </li>
+            <li>event on &lt;script> elements </li>
+                
+            <li>for on &lt;script> elements 
+                <div>Use DOM events mechanisms to register event listeners. [DOM41]</div>
+            </li>
+            <li>datapagesize on &lt;table> elements 
+               <div>Unnecessary. Omit it altogether.</div>
+            </li>
+            
+            <li>summary on &lt;table> elements 
+               <div>Use one of the techniques given in the table section instead.</div>
+            </li>
+            <li>abbr on &lt;td> elements 
+               <div>Use text that begins in an unambiguous and terse manner, and include any more elaborate text after that. The title attribute can also be useful in including more detailed text, so that the cell’s contents can be made terse. If it’s a heading, use th (which has an abbr attribute).</div>
+            </li>
+
+            <li>axis on &lt;td> and &lt;th> elements 
+                <div>Use the scope attribute on the relevant th.</div>
+            </li>    
+                
+            <li>scope on &lt;td> elements 
+               <div>Use th elements for heading cells.</div>
+            </li>
+
+            <li>datasrc on &lt;a>, &lt;applet>, &lt;button>, &lt;div>, &lt;frame>, &lt;iframe>, &lt;img>, &lt;input>, &lt;label>, &lt;legend>, &lt;marquee>, &lt;object>, &lt;option>, &lt;select>, &lt;a>, &lt;table>, and &lt;textarea> elements </li>
+                
+            <li>datafld on &lt;a>, &lt;applet>, &lt;button>, &lt;div>, &lt;fieldset>, &lt;frame>, &lt;iframe>, &lt;img>, &lt;input>, &lt;label>, &lt;legend>, &lt;marquee>, &lt;object>, &lt;param>, &lt;select>, &lt;a>, and &lt;textarea> elements </li>
+                
+            <li>dataformatas on &lt;button>, &lt;div>, &lt;input>, &lt;label>, &lt;legend>, &lt;marquee>, &lt;object>, &lt;option>, &lt;select>, &lt;a>, and &lt;table> elements 
+               <div> Use script and a mechanism such as XMLHttpRequest to populate the page dynamically. [XHR] </div>
+            </li>
+
+            <li>alink on &lt;body> elements</li>
+            <li>bgcolor on &lt;body> elements </li>
+            <li>bottommargin on &lt;body> elements </li>
+            <li>leftmargin on &lt;body> elements </li>
+            <li>link on &lt;body> elements </li>
+            <li>marginheight on &lt;body> elements</li> 
+            <li>marginwidth on &lt;body> elements </li>
+            <li>rightmargin on &lt;body> elements </li>
+            <li>text on &lt;body> elements </li>
+            <li>topmargin on &lt;body> elements </li>
+            <li>vlink on &lt;body> elements </li>
+            <li>clear on &lt;br> elements </li>
+            <li>align on &lt;caption> elements </li>
+            <li>align on &lt;col> elements </li> 
+            <li>char on &lt;col> elements </li>
+            <li>charoff on &lt;col> elements </li>
+            <li>valign on &lt;col> elements </li>
+            <li>width on &lt;col> elements </li>
+            <li>align on &lt;div> elements </li>
+            <li>compact on &lt;dl> elements </li>
+            <li>align on &lt;embed> elements </li>
+            <li>hspace on &lt;embed> elements </li>
+            <li>vspace on &lt;embed> elements </li>
+            <li>bordercolor on &lt;frame> elements  </li>
+            <li>align on &lt;hr> elements </li>
+            <li>color on &lt;hr> elements </li>
+            <li>noshade on &lt;hr> elements </li>
+            <li>size on &lt;hr> elements </li>
+            <li>width on &lt;hr> elements </li>
+            <li>align on h1—h6 elements </li>
+            <li>align on &lt;iframe> elements </li>
+            <li>allowtransparency on &lt;iframe> elements </li>
+            <li>frameborder on &lt;iframe> elements </li>
+            <li>framespacing on &lt;iframe> elements </li>
+            <li>hspace on &lt;iframe> elements </li>
+            <li>marginheight on &lt;iframe> elements </li> 
+            <li>marginwidth on &lt;iframe> elements </li>
+            <li>scrolling on &lt;iframe> elements </li>
+            <li>vspace on &lt;iframe> elements </li>
+            <li>align on &lt;input> elements </li>
+            <li>border on &lt;input> elements </li>
+            <li>hspace on &lt;input> elements </li>
+            <li>vspace on &lt;input> elements </li>
+            <li>align on &lt;img> elements </li> 
+            <li>border on &lt;img> elements (except as noted in the previous section) </li>
+            <li>hspace on &lt;img> elements </li>
+            <li>vspace on &lt;img> elements </li>
+            <li>align on &lt;legend> elements </li> 
+            <li>type on &lt;li> elements </li>
+            <li>compact on &lt;menu> elements </li>
+            <li>bgcolor on &lt;marquee> elements </li>
+            <li>height on &lt;marquee> elements </li>
+            <li>hspace on &lt;marquee> elements </li>
+            <li>vspace on &lt;marquee> elements </li>
+            <li>width on &lt;marquee> elements </li>
+            <li>align on &lt;object> elements </li>
+            <li>border on &lt;object> elements </li>
+            <li>hspace on &lt;object> elements </li>
+            <li>vspace on &lt;object> elements </li>
+            <li>compact on &lt;ol> elements </li>
+            <li>align on &lt;p> elements </li>
+            <li>width on &lt;pre> elements </li>
+            <li>align on &lt;table> elements</li> 
+            <li>bgcolor on &lt;table> elements </li>
+            <li>border on &lt;table> elements </li>
+            <li>bordercolor on &lt;table> elements </li>
+            <li>cellpadding on &lt;table> elements </li>
+            <li>cellspacing on &lt;table> elements </li>
+            <li>frame on &lt;table> elements </li>
+            <li>height on &lt;table> elements </li>
+            <li>rules on &lt;table> elements </li> 
+            <li>width on &lt;table> elements </li>
+            <li>align on &lt;tbody>, &lt;thead>, and &lt;tfoot> elements </li>
+            <li>char on &lt;tbody>, &lt;thead>, and &lt;tfoot> elements </li>
+            <li>charoff on &lt;tbody>, &lt;thead>, and &lt;tfoot> elements </li>
+            <li>valign on &lt;tbody>, &lt;thead>, and &lt;tfoot> elements </li>
+            <li>align on &lt;td> and &lt;th> elements </li>
+            <li>bgcolor on &lt;td> and &lt;th> elements </li>
+            <li>char on &lt;td> and &lt;th> elements </li>
+            <li>charoff on &lt;td> and &lt;th> elements </li>
+            <li>height on &lt;td> and &lt;th> elements </li>
+            <li>nowrap on &lt;td> and &lt;th> elements </li>
+            <li>valign on &lt;td> and &lt;th> elements </li>
+            <li>width on &lt;td> and &lt;th> elements </li>
+            <li>align on &lt;tr> elements </li>
+            <li>bgcolor on &lt;tr> elements </li>
+            <li>char on &lt;tr> elements </li>
+            <li>charoff on &lt;tr> elements </li>
+            <li>height on &lt;tr> elements </li>
+            <li>valign on &lt;tr> elements </li>
+            <li>compact on &lt;ul> elements </li>
+            <li>type on &lt;ul> elements </li>
+            <li>background on &lt;body>, &lt;table>, &lt;thead>, &lt;tbody>, &lt;tfoot>, &lt;tr>, &lt;td>, and &lt;th> elements 
+                <div>Use CSS instead.</div>
+            </li>
+        </ul>
+    </div>
+    <div><strong>Note:</strong> every item in the list above is being copied from the HTML 5 Specs.
+        <a href="https://www.w3.org/TR/html52/obsolete.html#non-conforming-features">Read More</a>
+    </div>
+</body>
+</html>

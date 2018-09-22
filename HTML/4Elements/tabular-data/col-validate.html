@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>col</title>
+    <style>
+        table{
+            width: 400px;
+            border: solid black 1px;
+        }
+        td, th{
+            border: solid black 1px;
+        }
+    </style>
+</head>
+<body>
+    <p>HTML 5 Specs defines col element as following,
+        "If a col element has a parent and that is a 
+        colgroup element that itself has a parent that is
+         a table element, then the col element represents one or
+          more columns in the column group represented by that colgroup."
+
+    </p>
+<table>
+    <colgroup>
+        <col style="background-color:red;width:150px">
+        <col style="background-color:yellow">
+    </colgroup>
+    <tr>
+    <td>This column is red.</td>
+    <td>This one is yellow.</td>
+    </tr>
+    <tr><td>!</td><td>?</td></tr>
+    <tr><td>!</td><td>?</td></tr>
+</table>
+</body>
+</html>

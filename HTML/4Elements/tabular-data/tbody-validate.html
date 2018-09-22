@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tbody</title>
+    <style>
+        
+        table{
+            border-collapse: collapse;
+        }
+         td, th{
+            border: solid black 1px; 
+        } 
+        .no_border{
+            border-left: none;
+            border-bottom:none;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <p>HTML 5 Specs defines tbody element as following, 
+        "The tbody element represents a block of rows that
+         consist of a body of data for the parent table element,
+          if the tbody element has a parent and it is a table."
+    </p>
+<table>
+    <thead >
+    <tr>
+        <td class="no_border">Region</td>
+        <th class="no_border">Regular Widget</th>
+        <th class="no_border">Super Widget</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th class="no_border">West Coast</th>
+        <td>10</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <th class="no_border">East Coast</th>
+        <td class="no_border">1</td>
+        <td class="no_border">20</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

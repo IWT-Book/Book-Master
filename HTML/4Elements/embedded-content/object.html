@@ -5,6 +5,14 @@
     <title>object</title>
 </head>
 <body>
+    <p>HTML 5 defines the object element as following,
+        "The object element can represent an external resource, 
+        which, depending on the type of the resource, will either 
+        be treated as an image, as a nested browsing context, or 
+        as an external resource to be processed by a plugin."
+    </p>
+    <!-- classid is not used in HTML 5 any more. We should use data and type.
+     Data - Address of the resource, and Type - Type of embedded resource   -->
 <object id="IeLabel1" width="325" height="65"
         classid="CLSID:99B42120-6EC7-11CF-A6C7-00AA00A47DD2">
     <param name="_ExtentX" value="6879">
@@ -17,6 +25,8 @@
     <param name="FontSize" value="36">
     <b>Hello World for non-ActiveX users!</b>
 </object>
+<!-- classid is not used in HTML 5 any more. We should use data and type.
+     Data - Address of the resource, and Type - Type of embedded resource   -->
 <!-- Standard HTML style -->
 <object classid="java:Blink.class"
         standby="Here it comes"
