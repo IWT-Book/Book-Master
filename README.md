@@ -40,4 +40,4 @@ This can only be done while running locally.
   OR you can update the .less files at node_modules/gitbook-plugin-theme-iwt/src/less/website.  
   Unfortunately, it only seems like the changes take hold if you publish the plugin and update the version.  No way to test locally so probably better to use website.css.
 
-## Last Updated : July 2018 - TAP
+## Last Updated : June 2019 - TAP
